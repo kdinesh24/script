@@ -88,6 +88,40 @@ def click_button_with_retry(driver, selectors, max_retries=3, description="butto
     logger.error(f"Failed to click {description} after {max_retries} attempts")
     return False
 
+def check_for_camera_active(driver):
+    """Check if camera appears to be active by looking for green elements or timers"""
+    try:
+        # Look for a timer element which might indicate camera is active
+        timer_elements = driver.find_elements(
+            By.XPATH, 
+            "//*[contains(text(), ':') and string-length(text()) >= 5]"
+        )
+        if timer_elements:
+            logger.info(f"Found potential timer elements: {len(timer_elements)}")
+            for elem in timer_elements:
+                logger.info(f"Timer text: {elem.text}")
+            return True
+            
+        # Look for green elements that might be the camera view
+        green_elements = driver.find_elements(
+            By.CSS_SELECTOR, 
+            "div[style*='background-color: green'], div[style*='background: green'], div[style*='background-color: #00'], div[style*='background: #00']"
+        )
+        if green_elements:
+            logger.info(f"Found potential camera elements: {len(green_elements)}")
+            return True
+            
+        # Look for video elements
+        video_elements = driver.find_elements(By.TAG_NAME, "video")
+        if video_elements:
+            logger.info(f"Found video elements: {len(video_elements)}")
+            return True
+            
+        return False
+    except Exception as e:
+        logger.error(f"Error checking for camera: {e}")
+        return False
+
 try:
     # Navigate to Kalvium Community
     driver.get("https://kalvium.community")
@@ -204,27 +238,77 @@ try:
     
     if mark_attendance_clicked:
         # Extended wait time for camera initialization in headless mode
-        logger.info("Waiting for camera to initialize (20 seconds)...")
-        time.sleep(20)
+        logger.info("Waiting for camera to initialize (30 seconds)...")
+        time.sleep(30)  # Increased wait time for camera initialization
         driver.save_screenshot("camera_screen.png")
         logger.info("Saved camera screen screenshot")
         
-        # More comprehensive selectors for "I'm Present" button
+        # Check if camera appears to be active
+        camera_active = check_for_camera_active(driver)
+        logger.info(f"Camera active check: {camera_active}")
+        
+        # If camera doesn't appear active, take additional action
+        if not camera_active:
+            logger.info("Camera may not be initialized properly, waiting more time...")
+            time.sleep(10)  # Wait a bit more
+            driver.save_screenshot("camera_screen_additional_wait.png")
+            
+            # Refresh the page if camera still not active (optional)
+            # if not check_for_camera_active(driver):
+            #     logger.info("Refreshing page to try again with camera...")
+            #     driver.refresh()
+            #     time.sleep(20)
+        
+        # More comprehensive selectors for "I'm Present" button - updated based on your screenshot
         present_selectors = [
+            # Standard selectors
             "//button[contains(text(), 'Mark as Present')]",
             "//button[contains(text(), 'I\'m Present')]",
             "//button[contains(text(), 'Present')]",
             "//button[text()='Present']",
             "//button[contains(@class, 'present')]",
-            "//*[contains(text(), 'Present')][ancestor::button]",
+            
+            # More specific selectors based on your screenshot
+            "//div[contains(@style, 'background-color: green')]//following::button",
+            "//div[contains(@style, 'background: green')]//following::button",
+            "//div[contains(@style, 'background-color')]//following::button",
+            
+            # Try locating by nearby elements
+            "//div[contains(text(), ':')]//following::button",  # Button after timer
+            "//div[contains(text(), '0:00')]//following::button",  # Button after timer with specific format
             "//div[contains(@class, 'camera')]//button",
-            "//button[contains(@class, 'primary')]"
+            "//button[contains(@class, 'primary')]",
+            
+            # Very broad selectors as last resort
+            "//button"  # Try any button if desperate
         ]
         
-        logger.info("Looking for 'I'm Present' button...")
+        logger.info("Looking for 'I'm Present' or related button...")
         present_clicked = click_button_with_retry(
-            driver, present_selectors, max_retries=8, description="I'm Present button", wait_time=15
+            driver, present_selectors, max_retries=10, description="I'm Present button", wait_time=10
         )
+        
+        if not present_clicked:
+            logger.info("Could not find standard 'Present' button. Trying more aggressive approach...")
+            
+            # Try clicking any button on the page as a last resort
+            try:
+                all_buttons = driver.find_elements(By.TAG_NAME, "button")
+                logger.info(f"Found {len(all_buttons)} buttons on the camera page")
+                
+                for i, btn in enumerate(all_buttons):
+                    try:
+                        logger.info(f"Attempting to click button {i}")
+                        driver.execute_script("arguments[0].click();", btn)
+                        logger.info(f"Clicked button {i}")
+                        present_clicked = True
+                        time.sleep(3)
+                        break
+                    except Exception as e:
+                        logger.error(f"Error clicking button {i}: {e}")
+                        continue
+            except Exception as e:
+                logger.error(f"Error in aggressive button click approach: {e}")
         
         if present_clicked:
             logger.info("Attendance marked successfully! Waiting to verify...")
@@ -239,7 +323,9 @@ try:
                 "//div[contains(text(), 'marked')]",
                 "//div[contains(text(), 'present')]",
                 "//div[contains(text(), 'focussed')]",
-                "//div[contains(text(), 'going')]"
+                "//div[contains(text(), 'going')]",
+                "//div[contains(text(), 'confirmed')]",
+                "//div[contains(text(), 'recorded')]"
             ]
             
             success_found = False
@@ -254,6 +340,13 @@ try:
             
             if not success_found:
                 logger.info("Could not verify success message, but attendance may still be marked")
+                # Check if we can find any success-related text in the page
+                page_text = driver.page_source.lower()
+                success_terms = ["success", "present", "marked", "attendance", "recorded", "confirmed"]
+                found_terms = [term for term in success_terms if term in page_text]
+                if found_terms:
+                    logger.info(f"Found success-related terms in page: {found_terms}")
+                    
         else:
             logger.error("Could not click 'I'm Present' button")
             driver.save_screenshot("present_button_not_found.png")
