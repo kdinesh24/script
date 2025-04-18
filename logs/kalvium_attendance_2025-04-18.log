@@ -1,0 +1,2241 @@
+2025-04-18 09:06:28,095 - INFO - ====== WebDriver manager ======
+2025-04-18 09:06:30,055 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:06:31,136 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:06:31,425 - INFO - There is no [win64] chromedriver "135.0.7049.95" for browser google-chrome "135.0.7049" in cache
+2025-04-18 09:06:31,426 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:06:32,053 - INFO - WebDriver version 135.0.7049.95 selected
+2025-04-18 09:06:32,062 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.95/win32/chromedriver-win32.zip
+2025-04-18 09:06:32,062 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.95/win32/chromedriver-win32.zip
+2025-04-18 09:06:32,168 - INFO - Driver downloading response is 200
+2025-04-18 09:06:51,804 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:06:53,000 - INFO - Driver has been saved in cache [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95]
+2025-04-18 09:06:54,453 - INFO - Chrome browser started successfully in headless mode
+2025-04-18 09:07:12,199 - INFO - Navigating to Kalvium Community...
+2025-04-18 09:07:12,243 - INFO - Login page detected, attempting to log in...
+2025-04-18 09:07:14,433 - INFO - Clicked login button with JavaScript
+2025-04-18 09:07:29,443 - INFO - After login attempt, current URL: https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-1558528162%3A1744947429626272&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&ddm=1&nonce=bGISqanxjIgFuKWVaqyLkg&o2v=2&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid+profile+email&service=lso&state=c6aItCx2sKLiSVl4MLVp9VXqpXQvvp0XubAzE49chOw.f0V0koBmxNo.yb4HjigsSTSnfhcl4EebXQ&flowName=GeneralOAuthLite&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPtLu3ifYRDJty_JerUl4Zey-Yg_QGKFedAoKtzrabTvhMqtMdW-UE7uVRllQ8F3BEL1M7-xOPYPV8GOOeIVrw2yJBOXCnRIjAzzFuyFyYFillz031FY7KVIHH4tXpwmEn6cUkWru5n-Q8uS80IOl2gZSLN7ETR8OtTydn5incYWl__Rblebv5Ex27DW3uM3twEBQ--TnS6oMyBQxHHTRu-QYio-swS3zNwe1XsfnAvu4HENd-blTAMtJ4q5jVqM2hnCDSD1e38xdlLi1HZg0aHkIXKqymElGiZiJNVoRosLzcFr6gjC4JOXf8MkaTDAwj2jRMosLfZUUfeaDgZwBgemo0BGj6UGYg2q5hduCCN2gyxCKDUFw7uilyEg4OlLwzCCH0pnBUXANXuF3idOGvsB-FCLRmastUwdpyHl80bW5hsB0Z1xSUXaAvUWtFLqMCSSC35RPr4FJeu1smPBvZEY0gYauXfo_LoHbpDv2N792nRmQ4k5-IByiH7AzFgmIf77pv3cOGD9mndCguUdacGMCefTvz_U0rbSQnwZxLibAI9i0v7WCrTnthJDWmqB56Zae7solMzWQxqCKnl0U6-m1YCC46NLV5MElYWbSpMjwKk2k4qaYk0kxr16Q3c1fW_vgNVYVUhcenJxkj_2G8TFwRYRQ%26flowName%3DGeneralOAuthFlow%26as%3DS-1558528162%253A1744947429626272%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fauth.kalvium.community&rart=ANgoxcf_udyc-KqMfvrj0YA7F9p-SN-cJ1Uwo2YOXEK35tCUCCY1asBvv-UPQ9g3WC6I70DfQoPjZ97t6kSJw0LrLnmwKJO84u8eI_LHhKy0T047e2m_lCs
+2025-04-18 09:07:29,448 - INFO - Current URL: https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-1558528162%3A1744947429626272&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&ddm=1&nonce=bGISqanxjIgFuKWVaqyLkg&o2v=2&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid+profile+email&service=lso&state=c6aItCx2sKLiSVl4MLVp9VXqpXQvvp0XubAzE49chOw.f0V0koBmxNo.yb4HjigsSTSnfhcl4EebXQ&flowName=GeneralOAuthLite&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPtLu3ifYRDJty_JerUl4Zey-Yg_QGKFedAoKtzrabTvhMqtMdW-UE7uVRllQ8F3BEL1M7-xOPYPV8GOOeIVrw2yJBOXCnRIjAzzFuyFyYFillz031FY7KVIHH4tXpwmEn6cUkWru5n-Q8uS80IOl2gZSLN7ETR8OtTydn5incYWl__Rblebv5Ex27DW3uM3twEBQ--TnS6oMyBQxHHTRu-QYio-swS3zNwe1XsfnAvu4HENd-blTAMtJ4q5jVqM2hnCDSD1e38xdlLi1HZg0aHkIXKqymElGiZiJNVoRosLzcFr6gjC4JOXf8MkaTDAwj2jRMosLfZUUfeaDgZwBgemo0BGj6UGYg2q5hduCCN2gyxCKDUFw7uilyEg4OlLwzCCH0pnBUXANXuF3idOGvsB-FCLRmastUwdpyHl80bW5hsB0Z1xSUXaAvUWtFLqMCSSC35RPr4FJeu1smPBvZEY0gYauXfo_LoHbpDv2N792nRmQ4k5-IByiH7AzFgmIf77pv3cOGD9mndCguUdacGMCefTvz_U0rbSQnwZxLibAI9i0v7WCrTnthJDWmqB56Zae7solMzWQxqCKnl0U6-m1YCC46NLV5MElYWbSpMjwKk2k4qaYk0kxr16Q3c1fW_vgNVYVUhcenJxkj_2G8TFwRYRQ%26flowName%3DGeneralOAuthFlow%26as%3DS-1558528162%253A1744947429626272%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fauth.kalvium.community&rart=ANgoxcf_udyc-KqMfvrj0YA7F9p-SN-cJ1Uwo2YOXEK35tCUCCY1asBvv-UPQ9g3WC6I70DfQoPjZ97t6kSJw0LrLnmwKJO84u8eI_LHhKy0T047e2m_lCs
+2025-04-18 09:07:29,617 - INFO - Saved screenshot to D:\script\logs\main_page_090729.png
+2025-04-18 09:07:29,625 - INFO - Page title: Sign in - Google Accounts
+2025-04-18 09:07:34,632 - INFO - Attempting to find and click Mark Attendance button...
+2025-04-18 09:07:34,645 - INFO - Attendance button click result: False
+2025-04-18 09:07:34,645 - ERROR - Could not find or click 'Mark Attendance' button
+2025-04-18 09:07:39,646 - INFO - Script completed
+2025-04-18 09:07:41,842 - INFO - Browser closed
+2025-04-18 09:23:08,443 - INFO - ====== WebDriver manager ======
+2025-04-18 09:23:09,657 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:23:10,048 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:23:10,553 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 09:23:11,869 - INFO - Chrome browser started successfully with your profile
+2025-04-18 09:23:15,012 - INFO - Navigating to Kalvium Community...
+2025-04-18 09:23:15,075 - INFO - Current URL: https://kalvium.community/
+2025-04-18 09:23:15,171 - INFO - Saved screenshot to D:\script\logs\main_page_092315.png
+2025-04-18 09:23:15,174 - INFO - Page title: Kalvium
+2025-04-18 09:23:15,179 - INFO - Found 1 buttons on page
+2025-04-18 09:23:15,179 - INFO - Button 0: Text='Continue with Google', ID='', Classes='chakra-button css-1s9wx4z', Visible=True
+2025-04-18 09:23:20,195 - INFO - Attempting to find and click Mark Attendance button...
+2025-04-18 09:23:22,351 - INFO - Attendance button click result: Clicked likely action button: Continue with Google
+2025-04-18 09:23:22,351 - INFO - Mark Attendance button appears to have been clicked
+2025-04-18 09:23:22,431 - INFO - Waiting for camera to initialize (15 seconds)...
+2025-04-18 09:23:47,529 - INFO - Looking for 'Present' button...
+2025-04-18 09:23:47,540 - INFO - Present button click result: Force-clicked present text element: HTML
+2025-04-18 09:23:47,540 - INFO - Successfully clicked 'Present' button or equivalent
+2025-04-18 09:23:52,622 - INFO - Success verification: False
+2025-04-18 09:23:52,622 - WARNING - No explicit success confirmation found, but process completed
+2025-04-18 09:23:57,623 - INFO - Script completed
+2025-04-18 09:24:00,003 - INFO - Browser closed
+2025-04-18 09:31:36,616 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 09:31:36,617 - INFO - Starting Chrome browser...
+2025-04-18 09:31:36,617 - INFO - ====== WebDriver manager ======
+2025-04-18 09:31:37,680 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:31:38,068 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:31:38,435 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 09:31:39,713 - INFO - Chrome browser started successfully
+2025-04-18 09:31:39,714 - INFO - Navigating to Kalvium Community...
+2025-04-18 09:31:52,186 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 09:31:52,191 - INFO - Page title: Kalvium
+2025-04-18 09:31:52,191 - INFO - STEP 1: Checking if login is needed...
+2025-04-18 09:31:52,215 - INFO - Already logged in - no login required
+2025-04-18 09:31:52,215 - INFO - STEP 2: Looking for Mark Attendance button...
+2025-04-18 09:31:52,228 - INFO - Direct search failed, trying JavaScript search...
+2025-04-18 09:31:56,531 - INFO - JavaScript found and clicked: Clicked likely main action button: Continue with Google
+2025-04-18 09:31:59,532 - INFO - STEP 3: Waiting for camera to initialize...
+2025-04-18 09:32:09,533 - INFO - Checking for camera/webcam elements...
+2025-04-18 09:32:09,673 - INFO - Saved camera screen screenshot to D:\script\logs\camera_screen_093209.png
+2025-04-18 09:32:09,674 - INFO - Looking for 'Present' button...
+2025-04-18 09:32:09,689 - INFO - Direct search failed, trying JavaScript search for Present button...
+2025-04-18 09:32:12,604 - INFO - JavaScript found and clicked Present button: Clicked largest visible button
+2025-04-18 09:32:15,609 - INFO - STEP 4: Verifying success...
+2025-04-18 09:32:16,400 - INFO - Saved final screen screenshot to D:\script\logs\final_screen_093215.png
+2025-04-18 09:32:16,455 - INFO - Process completed but could not verify success - please check screenshots
+2025-04-18 09:32:16,456 - INFO - Script completed successfully
+2025-04-18 09:32:21,735 - INFO - Browser closed
+2025-04-18 09:40:05,969 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 09:40:05,969 - INFO - Starting Chrome browser...
+2025-04-18 09:40:05,969 - INFO - ====== WebDriver manager ======
+2025-04-18 09:40:07,041 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:40:07,462 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:40:08,350 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 09:40:09,606 - INFO - Chrome browser started successfully
+2025-04-18 09:40:09,607 - INFO - Navigating to Kalvium Community...
+2025-04-18 09:40:26,981 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 09:40:26,987 - INFO - Page title: Kalvium
+2025-04-18 09:40:26,987 - INFO - STEP 1: Checking if login is needed...
+2025-04-18 09:40:27,037 - INFO - Already logged in - no login required
+2025-04-18 09:40:27,038 - INFO - STEP 2: Looking for Mark Attendance button...
+2025-04-18 09:40:27,049 - INFO - Direct search failed, trying JavaScript search...
+2025-04-18 09:40:31,000 - INFO - JavaScript found and clicked: Clicked likely main action button: Continue with Google
+2025-04-18 09:40:34,001 - INFO - STEP 3: Waiting for camera to initialize...
+2025-04-18 09:40:44,002 - INFO - Checking for camera/webcam elements...
+2025-04-18 09:40:44,127 - INFO - Saved camera screen screenshot to D:\script\logs\camera_screen_094044.png
+2025-04-18 09:40:44,127 - INFO - Looking for 'Present' button...
+2025-04-18 09:40:44,140 - INFO - Direct search failed, trying JavaScript search for Present button...
+2025-04-18 09:40:44,195 - INFO - JavaScript found and clicked Present button: Clicked largest visible button
+2025-04-18 09:40:47,196 - INFO - STEP 4: Verifying success...
+2025-04-18 09:40:47,403 - INFO - Saved final screen screenshot to D:\script\logs\final_screen_094047.png
+2025-04-18 09:40:47,419 - INFO - Process completed but could not verify success - please check screenshots
+2025-04-18 09:40:47,419 - INFO - Script completed successfully
+2025-04-18 09:40:52,683 - INFO - Browser closed
+2025-04-18 09:41:00,103 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 09:41:00,103 - INFO - Starting Chrome browser...
+2025-04-18 09:41:00,104 - INFO - ====== WebDriver manager ======
+2025-04-18 09:41:01,115 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:41:02,150 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:41:02,614 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 09:41:03,843 - INFO - Chrome browser started successfully
+2025-04-18 09:41:03,844 - INFO - Navigating to Kalvium Community...
+2025-04-18 09:41:21,881 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 09:41:21,887 - INFO - Page title: Kalvium
+2025-04-18 09:41:21,887 - INFO - STEP 1: Checking if login is needed...
+2025-04-18 09:41:21,911 - INFO - Already logged in - no login required
+2025-04-18 09:41:21,911 - INFO - STEP 2: Looking for Mark Attendance button...
+2025-04-18 09:41:21,934 - INFO - Direct search failed, trying JavaScript search...
+2025-04-18 09:41:28,123 - INFO - JavaScript found and clicked: Clicked likely main action button: Continue with Google
+2025-04-18 09:41:31,124 - INFO - STEP 3: Waiting for camera to initialize...
+2025-04-18 09:41:41,125 - INFO - Checking for camera/webcam elements...
+2025-04-18 09:41:41,270 - INFO - Saved camera screen screenshot to D:\script\logs\camera_screen_094141.png
+2025-04-18 09:41:41,271 - INFO - Looking for 'Present' button...
+2025-04-18 09:41:41,284 - INFO - Direct search failed, trying JavaScript search for Present button...
+2025-04-18 09:41:41,339 - INFO - JavaScript found and clicked Present button: Clicked largest visible button
+2025-04-18 09:41:44,341 - INFO - STEP 4: Verifying success...
+2025-04-18 09:41:44,485 - INFO - Saved final screen screenshot to D:\script\logs\final_screen_094144.png
+2025-04-18 09:41:44,503 - INFO - Process completed but could not verify success - please check screenshots
+2025-04-18 09:41:44,504 - INFO - Script completed successfully
+2025-04-18 09:41:49,837 - INFO - Browser closed
+2025-04-18 09:41:59,541 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 09:41:59,541 - INFO - Starting Chrome browser...
+2025-04-18 09:41:59,541 - INFO - ====== WebDriver manager ======
+2025-04-18 09:42:00,531 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:42:01,041 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:42:01,369 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 09:42:02,537 - INFO - Chrome browser started successfully
+2025-04-18 09:42:02,537 - INFO - Navigating to Kalvium Community...
+2025-04-18 09:42:23,935 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 09:42:23,943 - INFO - Page title: Kalvium
+2025-04-18 09:42:23,943 - INFO - STEP 1: Checking if login is needed...
+2025-04-18 09:42:23,966 - INFO - Already logged in - no login required
+2025-04-18 09:42:23,966 - INFO - STEP 2: Looking for Mark Attendance button...
+2025-04-18 09:42:23,980 - INFO - Direct search failed, trying JavaScript search...
+2025-04-18 09:42:28,757 - INFO - JavaScript found and clicked: Clicked likely main action button: Continue with Google
+2025-04-18 09:42:31,758 - INFO - STEP 3: Waiting for camera to initialize...
+2025-04-18 09:42:41,759 - INFO - Checking for camera/webcam elements...
+2025-04-18 09:42:41,966 - INFO - Saved camera screen screenshot to D:\script\logs\camera_screen_094241.png
+2025-04-18 09:42:41,967 - INFO - Looking for 'Present' button...
+2025-04-18 09:42:42,007 - INFO - Direct search failed, trying JavaScript search for Present button...
+2025-04-18 09:42:42,031 - INFO - JavaScript found and clicked Present button: Clicked largest visible button
+2025-04-18 09:42:45,032 - INFO - STEP 4: Verifying success...
+2025-04-18 09:42:45,176 - INFO - Saved final screen screenshot to D:\script\logs\final_screen_094245.png
+2025-04-18 09:42:45,188 - INFO - Process completed but could not verify success - please check screenshots
+2025-04-18 09:42:45,188 - INFO - Script completed successfully
+2025-04-18 09:42:50,483 - INFO - Browser closed
+2025-04-18 09:42:55,125 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 09:42:55,126 - INFO - Starting Chrome browser...
+2025-04-18 09:42:55,126 - INFO - ====== WebDriver manager ======
+2025-04-18 09:42:56,124 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:42:56,853 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:42:57,195 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 09:42:58,382 - INFO - Chrome browser started successfully
+2025-04-18 09:42:58,383 - INFO - Navigating to Kalvium Community...
+2025-04-18 09:43:22,425 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 09:43:22,431 - INFO - Page title: Kalvium
+2025-04-18 09:43:22,431 - INFO - STEP 1: Checking if login is needed...
+2025-04-18 09:43:22,454 - INFO - Already logged in - no login required
+2025-04-18 09:43:22,455 - INFO - STEP 2: Looking for Mark Attendance button...
+2025-04-18 09:43:22,468 - INFO - Direct search failed, trying JavaScript search...
+2025-04-18 09:43:29,393 - INFO - JavaScript found and clicked: Clicked likely main action button: Continue with Google
+2025-04-18 09:43:32,394 - INFO - STEP 3: Waiting for camera to initialize...
+2025-04-18 09:43:42,395 - INFO - Checking for camera/webcam elements...
+2025-04-18 09:43:42,524 - INFO - Saved camera screen screenshot to D:\script\logs\camera_screen_094342.png
+2025-04-18 09:43:42,524 - INFO - Looking for 'Present' button...
+2025-04-18 09:43:42,537 - INFO - Direct search failed, trying JavaScript search for Present button...
+2025-04-18 09:43:42,591 - INFO - JavaScript found and clicked Present button: Clicked largest visible button
+2025-04-18 09:43:45,601 - INFO - STEP 4: Verifying success...
+2025-04-18 09:43:45,816 - INFO - Saved final screen screenshot to D:\script\logs\final_screen_094345.png
+2025-04-18 09:43:45,838 - INFO - Process completed but could not verify success - please check screenshots
+2025-04-18 09:43:45,838 - INFO - Script completed successfully
+2025-04-18 09:43:51,091 - INFO - Browser closed
+2025-04-18 09:48:06,886 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 09:48:06,887 - INFO - Starting Chrome browser...
+2025-04-18 09:48:06,887 - INFO - ====== WebDriver manager ======
+2025-04-18 09:48:07,800 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:48:09,184 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 09:48:09,929 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 09:48:11,167 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 09:48:11,167 - INFO - Navigating to Kalvium Community...
+2025-04-18 09:48:30,378 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 09:48:30,378 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 09:48:40,582 - ERROR - Error finding Google button: Message: 
+
+2025-04-18 09:48:40,582 - INFO - Trying to continue in case we're already logged in
+2025-04-18 09:48:40,582 - INFO - Handling Google login...
+2025-04-18 09:48:40,587 - INFO - Not on Google login page, assuming already logged in
+2025-04-18 09:48:40,588 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 09:48:40,601 - INFO - Current URL after login: https://kalvium.community/
+2025-04-18 09:48:40,765 - INFO - Saved main page screenshot to D:\script\logs\main_page_094840.png
+2025-04-18 09:48:45,786 - INFO - Direct approach failed, trying JavaScript...
+2025-04-18 09:48:51,911 - INFO - JavaScript found and clicked attendance button: Clicked prominent button: Continue with Google
+2025-04-18 09:48:54,912 - INFO - Waiting for camera to initialize...
+2025-04-18 09:49:05,183 - INFO - Saved camera screen screenshot to D:\script\logs\camera_screen_094905.png
+2025-04-18 09:49:05,195 - INFO - Direct approach failed, trying JavaScript...
+2025-04-18 09:49:07,119 - INFO - JavaScript found and clicked Present button: Clicked largest button
+2025-04-18 09:49:10,119 - INFO - Verifying success...
+2025-04-18 09:49:10,253 - INFO - Saved final screen screenshot to D:\script\logs\final_screen_094910.png
+2025-04-18 09:49:10,268 - INFO - Process completed but could not verify success - please check screenshots
+2025-04-18 09:49:10,268 - INFO - Script completed successfully!
+2025-04-18 09:49:17,549 - INFO - Browser closed
+2025-04-18 10:04:15,570 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 10:04:15,570 - INFO - Starting Chrome browser...
+2025-04-18 10:04:15,570 - INFO - ====== WebDriver manager ======
+2025-04-18 10:04:17,038 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:04:17,586 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:04:19,597 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 10:04:20,888 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 10:04:20,888 - INFO - Navigating to Kalvium Community...
+2025-04-18 10:04:40,178 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 10:04:40,179 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 10:04:54,503 - INFO - Clicked Google button using approach 1
+2025-04-18 10:04:56,504 - INFO - Handling Google login process...
+2025-04-18 10:04:56,518 - INFO - Current URL: https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-98106695%3A1744950879774835&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&ddm=1&nonce=-OlzWtVPa3YLoXLcc9qd3Q&o2v=2&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid+profile+email&service=lso&state=IhQWKHdMOd4nEgZVXrPXcdbKuHKB3aGY9BfLV5SLN50.yJOtCIyeMD8.yb4HjigsSTSnfhcl4EebXQ&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAMm_JR39EdcmmBxUM1fUkhNAWqCHpfJrF2jBufecHWKHyFN458mIyvn89lTpWm5mEwpOSkVScV4dLWq4rSAGqNDeP5iRerzoSEBplVmdKOa80hABCN2nvyhbbssFLk1xDABkpEZPAsOaV_cROeNiCeAUdld9B0LzKfRNiSNDahRx0h07OKJWgIZT2kCFxtq5b6mcbKa34w9cIHKK3yR4TzoZiv2ee73gpHwk7EJMh2g9LxgdRc9Td5WsUwGyY-VsCVNNiGwbbES-VADR6mW5ZmwB3FpLU9WdLtpsyb04Nk5IY2nAc4WwWaappXlVBH93n-ZlrTwTK57YvWvcWc2apQcKCUsPT38BjeWy24whV8fWv8cDbxnloRsFmpwphdugsrvRbC0-vK4rueGVxCec-wGSPs2eNrpm9YGXwhkVSdrEwwoWZ6YPStlZ_3G_e0bF32BkRXSJlVF7ndIrOs9OpuGCT5RYuF3SP0YtTTbwrRFOeXgi7g%26flowName%3DGeneralOAuthFlow%26as%3DS-98106695%253A1744950879774835%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fauth.kalvium.community&rart=ANgoxccmMOzFmpzKWZYKAyITWk48VhqnuzmF-PrrgNS3eWmLGCmhWoaibIu86MVZH-fu2kjCm7U2v3lTfBXDh2SIHQ7N5V2WcOxcoqWMsWpUJ7ZPknHkIMM
+2025-04-18 10:04:56,684 - INFO - On email entry page
+2025-04-18 10:04:56,684 - INFO - Attempting to enter email: k.dinesh.s65@kalvium.community
+2025-04-18 10:04:56,842 - INFO - Found email input field
+2025-04-18 10:04:57,145 - INFO - Entered email address
+2025-04-18 10:04:57,178 - INFO - Found Next button, clicking...
+2025-04-18 10:04:57,353 - INFO - Clicked Next button after email
+2025-04-18 10:05:03,462 - INFO - On password entry page
+2025-04-18 10:05:03,462 - INFO - Attempting to enter password
+2025-04-18 10:05:03,647 - INFO - Found password input field
+2025-04-18 10:05:03,809 - INFO - Entered password
+2025-04-18 10:05:03,835 - INFO - Found Next button, clicking...
+2025-04-18 10:05:03,944 - INFO - Clicked Next button after password
+2025-04-18 10:05:08,945 - INFO - Waiting for login completion...
+2025-04-18 10:05:17,086 - INFO - Successfully logged in and returned to Kalvium
+2025-04-18 10:05:17,086 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 10:05:17,098 - INFO - Current URL after login: https://accounts.google.com/v3/signin/challenge/dp?TL=ADBLaQBdWnbuhE2Ff0JVMVBFRYaVRNo0JxZbs1LmlA3Rke2mP8XswF-IbzZdvLmu&app_domain=https%3A%2F%2Fauth.kalvium.community&checkConnection=youtube%3A1508&checkedDomains=youtube&cid=10&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAMm_JR39EdcmmBxUM1fUkhNAWqCHpfJrF2jBufecHWKHyFN458mIyvn89lTpWm5mEwpOSkVScV4dLWq4rSAGqNDeP5iRerzoSEBplVmdKOa80hABCN2nvyhbbssFLk1xDABkpEZPAsOaV_cROeNiCeAUdld9B0LzKfRNiSNDahRx0h07OKJWgIZT2kCFxtq5b6mcbKa34w9cIHKK3yR4TzoZiv2ee73gpHwk7EJMh2g9LxgdRc9Td5WsUwGyY-VsCVNNiGwbbES-VADR6mW5ZmwB3FpLU9WdLtpsyb04Nk5IY2nAc4WwWaappXlVBH93n-ZlrTwTK57YvWvcWc2apQcKCUsPT38BjeWy24whV8fWv8cDbxnloRsFmpwphdugsrvRbC0-vK4rueGVxCec-wGSPs2eNrpm9YGXwhkVSdrEwwoWZ6YPStlZ_3G_e0bF32BkRXSJlVF7ndIrOs9OpuGCT5RYuF3SP0YtTTbwrRFOeXgi7g%26flowName%3DGeneralOAuthFlow%26as%3DS-98106695%253A1744950879774835%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&ddm=1&dsh=S-98106695%3A1744950879774835&flowName=GeneralOAuthFlow&nonce=-OlzWtVPa3YLoXLcc9qd3Q&o2v=2&opparams=%253F&pstMsg=1&rart=ANgoxccmMOzFmpzKWZYKAyITWk48VhqnuzmF-PrrgNS3eWmLGCmhWoaibIu86MVZH-fu2kjCm7U2v3lTfBXDh2SIHQ7N5V2WcOxcoqWMsWpUJ7ZPknHkIMM&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid%20profile%20email&service=lso&state=IhQWKHdMOd4nEgZVXrPXcdbKuHKB3aGY9BfLV5SLN50.yJOtCIyeMD8.yb4HjigsSTSnfhcl4EebXQ
+2025-04-18 10:05:32,488 - WARNING - Direct approach for finding attendance button failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00418660]
+	(No symbol) [0x004189FB]
+	(No symbol) [0x00461022]
+	(No symbol) [0x0043D094]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:05:32,488 - INFO - Trying JavaScript approach for attendance button
+2025-04-18 10:05:32,604 - ERROR - Could not find 'Mark Attendance' button
+2025-04-18 10:05:32,605 - ERROR - Failed to find and click Mark Attendance button
+2025-04-18 10:05:39,916 - INFO - Browser closed
+2025-04-18 10:05:45,372 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 10:05:45,372 - INFO - Starting Chrome browser...
+2025-04-18 10:05:45,372 - INFO - ====== WebDriver manager ======
+2025-04-18 10:05:46,817 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:05:47,260 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:06:02,925 - ERROR - An error occurred: Could not reach host. Are you offline?
+2025-04-18 10:06:03,069 - ERROR - Traceback (most recent call last):
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\core\http.py", line 32, in get
+    resp = requests.get(
+        url=url, verify=self._ssl_verify, stream=True, **kwargs)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\script\script.py", line 51, in main
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\core\manager.py", line 35, in _get_driver_binary_path
+    binary_path = self._cache_manager.find_driver(driver)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\core\driver_cache.py", line 110, in find_driver
+    key = self.__get_metadata_key(driver)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\core\driver_cache.py", line 144, in __get_metadata_key
+    driver_version = self.get_cache_key_driver_version(driver)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\core\driver_cache.py", line 154, in get_cache_key_driver_version
+    return driver.get_driver_version_to_download()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\core\driver.py", line 48, in get_driver_version_to_download
+    return self.get_latest_release_version()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\drivers\chrome.py", line 59, in get_latest_release_version
+    response = self._http_client.get(url)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\core\http.py", line 35, in get
+    raise exceptions.ConnectionError(f"Could not reach host. Are you offline?")
+requests.exceptions.ConnectionError: Could not reach host. Are you offline?
+
+2025-04-18 10:06:13,531 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 10:06:13,532 - INFO - Starting Chrome browser...
+2025-04-18 10:06:13,532 - INFO - ====== WebDriver manager ======
+2025-04-18 10:06:15,137 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:06:15,864 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:06:16,250 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 10:06:17,516 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 10:06:17,516 - INFO - Navigating to Kalvium Community...
+2025-04-18 10:06:36,973 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 10:06:36,974 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 10:06:42,459 - INFO - Clicked Google button using approach 1
+2025-04-18 10:06:44,460 - INFO - Handling Google login process...
+2025-04-18 10:06:44,473 - INFO - Current URL: https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S1999969722%3A1744950994939429&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&ddm=1&nonce=gu0lZEWKcN1d4l4at1KzAA&o2v=2&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid+profile+email&service=lso&state=0kyEPPPCy5-pSdlvAO64PMrsOK85Au1Zohmwov-lTsI.bnZY1zWM3Sk.yb4HjigsSTSnfhcl4EebXQ&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANzpM7fZXAmRjIJ1kHAOhHVRbXevFVNKhyCZ7T0ZOJ69pSsznlJY-TWHpbYDUXXJT3u6EpX3zaxKCt_xwQveFx2XGIM-8_EFXVSd6-iB_ByL-sbmh44JGN59we8gSd4OUz0WA7HboowXVaZ-L_0d9olhKRRxmc_iBrJrtyPllHHQ1UGEB3TCvucmT8Vxsog1tm_Q51KKJ2uThp1MiEMDDsQWubKE_R66xnObmf8pqX9SyGVLNNB4ZZQ238lcj_q7R7U-N2MzgLE3IjbbdE6ndZxSjqa7LNX1tQ-PWeAWAFsyOuha_EVhrMFpAK6LNNcato4fYtIdn_5Jg-cxmmZpwT7rm9s0lLluFmPrloWwN2fFKuS3-Uqs6RBB0JXG304ktBQtO_3X4tkp3y0afdnPleY7N-vsBWM_sNyz7NvET8Pk-hjOqD7GAK8ZhQP0JD0IGSwRKGGcPoaS411x24IIeG17JZeKonoQAj0OEeNLcEdtECczZ8%26flowName%3DGeneralOAuthFlow%26as%3DS1999969722%253A1744950994939429%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fauth.kalvium.community&rart=ANgoxcdx13EvoQ36KzkigEbJ1nEw0VzW_dmRkSJlhmvjKDw7-htla4nbEJkMJbEuQ2Kv3TA5THZJ2VpsV0TaXdFdo3Po6PeCarp7InjCPE4qbfwCXg308ro
+2025-04-18 10:06:44,747 - INFO - On email entry page
+2025-04-18 10:06:44,750 - INFO - Attempting to enter email: k.dinesh.s65@kalvium.community
+2025-04-18 10:06:44,882 - INFO - Found email input field
+2025-04-18 10:06:45,102 - INFO - Entered email address
+2025-04-18 10:06:45,131 - INFO - Found Next button, clicking...
+2025-04-18 10:06:45,275 - INFO - Clicked Next button after email
+2025-04-18 10:06:51,336 - INFO - On password entry page
+2025-04-18 10:06:51,336 - INFO - Attempting to enter password
+2025-04-18 10:06:51,459 - INFO - Found password input field
+2025-04-18 10:06:51,557 - INFO - Entered password
+2025-04-18 10:06:51,576 - INFO - Found Next button, clicking...
+2025-04-18 10:06:51,658 - INFO - Clicked Next button after password
+2025-04-18 10:06:56,659 - INFO - Waiting for login completion...
+2025-04-18 10:07:04,765 - INFO - Successfully logged in and returned to Kalvium
+2025-04-18 10:07:04,765 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 10:07:04,773 - INFO - Current URL after login: https://accounts.google.com/v3/signin/challenge/dp?TL=ADBLaQCryKq9-KpfpoKH1hXNUst5VLSBsCrHkDJL1f4QgRHt4pSRgC5ElQeMSXqe&app_domain=https%3A%2F%2Fauth.kalvium.community&checkConnection=youtube%3A836&checkedDomains=youtube&cid=10&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANzpM7fZXAmRjIJ1kHAOhHVRbXevFVNKhyCZ7T0ZOJ69pSsznlJY-TWHpbYDUXXJT3u6EpX3zaxKCt_xwQveFx2XGIM-8_EFXVSd6-iB_ByL-sbmh44JGN59we8gSd4OUz0WA7HboowXVaZ-L_0d9olhKRRxmc_iBrJrtyPllHHQ1UGEB3TCvucmT8Vxsog1tm_Q51KKJ2uThp1MiEMDDsQWubKE_R66xnObmf8pqX9SyGVLNNB4ZZQ238lcj_q7R7U-N2MzgLE3IjbbdE6ndZxSjqa7LNX1tQ-PWeAWAFsyOuha_EVhrMFpAK6LNNcato4fYtIdn_5Jg-cxmmZpwT7rm9s0lLluFmPrloWwN2fFKuS3-Uqs6RBB0JXG304ktBQtO_3X4tkp3y0afdnPleY7N-vsBWM_sNyz7NvET8Pk-hjOqD7GAK8ZhQP0JD0IGSwRKGGcPoaS411x24IIeG17JZeKonoQAj0OEeNLcEdtECczZ8%26flowName%3DGeneralOAuthFlow%26as%3DS1999969722%253A1744950994939429%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&ddm=1&dsh=S1999969722%3A1744950994939429&flowName=GeneralOAuthFlow&nonce=gu0lZEWKcN1d4l4at1KzAA&o2v=2&opparams=%253F&pstMsg=1&rart=ANgoxcdx13EvoQ36KzkigEbJ1nEw0VzW_dmRkSJlhmvjKDw7-htla4nbEJkMJbEuQ2Kv3TA5THZJ2VpsV0TaXdFdo3Po6PeCarp7InjCPE4qbfwCXg308ro&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid%20profile%20email&service=lso&state=0kyEPPPCy5-pSdlvAO64PMrsOK85Au1Zohmwov-lTsI.bnZY1zWM3Sk.yb4HjigsSTSnfhcl4EebXQ
+2025-04-18 10:07:18,379 - ERROR - Error finding Mark Attendance button: 'NoneType' object has no attribute 'is_displayed'
+2025-04-18 10:07:18,400 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 483, in find_and_click_mark_attendance
+    attendance_button = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH,
+    ...<4 lines>...
+        ))
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 634, in _predicate
+    element = visibility_of(target)(driver)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 260, in _predicate
+    return _element_if_visible(element)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 280, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+                      ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_displayed'
+
+2025-04-18 10:07:18,401 - ERROR - Failed to find and click Mark Attendance button
+2025-04-18 10:07:25,607 - INFO - Browser closed
+2025-04-18 10:07:27,798 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 10:07:27,798 - INFO - Starting Chrome browser...
+2025-04-18 10:07:27,798 - INFO - ====== WebDriver manager ======
+2025-04-18 10:07:28,574 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:07:28,807 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:07:28,999 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 10:07:30,138 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 10:07:30,138 - INFO - Navigating to Kalvium Community...
+2025-04-18 10:07:38,799 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 10:07:38,799 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 10:07:42,192 - INFO - Clicked Google button using approach 1
+2025-04-18 10:07:44,192 - INFO - Handling Google login process...
+2025-04-18 10:07:44,204 - INFO - Current URL: https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S2080739305%3A1744951055931522&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&ddm=1&nonce=0E6Ui2PN1OCmESOROvhyIw&o2v=2&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid+profile+email&service=lso&state=1GJrmTj-DvxZnIMTAgcOEooqeBC657gzX1LYVBXkQXo.Npq0WwwUTp0.yb4HjigsSTSnfhcl4EebXQ&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPyNe2e8c2gJxdzI0qkud89-DWULogr7tYZhz7y2erc-2IMyqZOQspBT0JXGw6PtE-VxDz4Ak4mgyAvOk2c7dXdx50KvQv924RDIg0ElI2SrqCcGg6HLni6KghVBALDpPHrc-1lbS4LXR7CKY2hWcIZUg6nlUwJVytZeEsaGoQEZIrURFbon78vk2g8dyODc7T0VC1uXfhF1aMae0n2KfmS7zHXFP9lf5F6PSGVEO9qyHpz8LTaPG22pw1ygPMihT2KCPWVn_PxhEYKYx3bq1hQxAE_M8YmbogwkGxrTWp0udfITZNJ5rHs2JhTgF_N_AslVFCygNHwgNZBQ512RVHVJ2EXHZ33Foeah88tPWElJaoR785bOvg4O0Rm9U1B8fBdq-p4a4krav94Y5LGVkxmpBV4YZKY_J33JVseF-sfEtrnLOv7IEkK9NJdIT-tnDi6wsdfFdx0oAhNl9kIn8SHye0EDr3GlDM1tUtRGVcr3GOHx2M%26flowName%3DGeneralOAuthFlow%26as%3DS2080739305%253A1744951055931522%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fauth.kalvium.community&rart=ANgoxcfTIgmmnwmtJtZSKGBGf3tCmBJedjr1MNWSEYyTTvO4_PPzY75bbfu0zZHh8sisSKZXrGRGyiARzArfU_VccaGCX_zL5vNFHizck4jml5F_ndC0Vt0
+2025-04-18 10:07:44,311 - INFO - On email entry page
+2025-04-18 10:07:44,311 - INFO - Attempting to enter email: k.dinesh.s65@kalvium.community
+2025-04-18 10:07:44,415 - INFO - Found email input field
+2025-04-18 10:07:44,567 - INFO - Entered email address
+2025-04-18 10:07:44,591 - INFO - Found Next button, clicking...
+2025-04-18 10:07:44,690 - INFO - Clicked Next button after email
+2025-04-18 10:07:50,740 - INFO - On password entry page
+2025-04-18 10:07:50,740 - INFO - Attempting to enter password
+2025-04-18 10:07:50,853 - INFO - Found password input field
+2025-04-18 10:07:50,931 - INFO - Entered password
+2025-04-18 10:07:50,952 - INFO - Found Next button, clicking...
+2025-04-18 10:07:51,022 - INFO - Clicked Next button after password
+2025-04-18 10:07:56,022 - INFO - Waiting for login completion...
+2025-04-18 10:08:04,509 - WARNING - Not on Kalvium site after login, current URL: https://accounts.youtube.com/accounts/SetSID?ssdc=1&sidt=ALWU2ctOLfc79sCt1KmQo6W7CegmdWfnFBBckuQOSyZ/EAbXx3euJLQuenc4nv8HAgBbfAu3GWTjQD1uCRC8NxJ1ikTiv8IMEg9McONmrGMIqrD%2BK14N/hvpLaPtJ/rdAoT9wbHLoSkiQuvnKMeOtxeXEoKZ4YSjMR20e94Xw2pONS%2BXlqdBZd2nc3ZFVEzaWgPUffHKI25Sl/7RVvkVn/iONGHsM3Q9DtOl3Xx1TB%2BU0QNbnzRHGJNxk3RCUhVKnGHf9Ky%2BgSleiXLpd6iZLZ%2BaGWuDIWl2jVV65EjybP9bEkT9aLurms3p/LGqoFLPM6oaBGwSAars3/H8sPac37ovGDo5ySPmTr7WozqFtkERO2p11mk9kukwzxN5gn1lq7SOX25MqoyDseUaSKIND%2BuaoBvI9nbFdL5NLtMWPu77NN%2BFXNX3oEocQEoc/KyGn3CxkcTSvVsHyQ4I40F0r8dwkeaDkQqsmUDr2A0x5dc4yvylwZ/Au7ExBER8NZlVZsUY/rtyA8qBGS/wIMTD5Vbo/oNx0q9Ro75ZSCKG4%2BAZi25wSipiyQUdTIi3ERKpAeiQefk5apbVh7AV7bOf7g4venYiY1eBwINGTEbc05WsS/j4GBqDGABs9mNPuAbkUAYUi4tE/kO8guTIJbNY9dDmCwXuOYKdoC8THtg9%2B2zIqcHMHu1qFo7Vs3XyWpoDdy1GNlWvl9z1RkBs5whsGYEiIERMEmILv8f42DIODvSdCU0/5yb7TZBOk6zfuig0OZx86x%2BnS%2BuWwLhqyVzi%2BbBM2mWcc7gJ0tJJYMSlwevGcJE222nUXIEWQ1HFDct60RyK1xLUtnWwmmCcvRqVRs3C3qRcbOqgTxSQuPzbGSHHO%2Btp6GguLF7BnaZBTJgOO3QrnTsoKKHCOCTkTwBq4FgrPSJRFeufPSZM/gSQt0y7QUZ0D3Bf1ogKf9wKLgUvGby323MDtbuDHUIGS05fxPMD8bDQJtREFpqa5mALPdNQlcZOnflOPeif854cFpKRUjuP/2jSgGDPu8K6gd3gzCAkmjbaoJBDH14UpQjdCRkivpkVh7m3Lc7aq%2BhS9SZMn00vs2eskX9mStQCtFo0K0LyvEcF0mKueSqvBk7yMBv8L2zsnsPPD%2Bc3m%2ByQ%2Br5lsWr%2BWOs3CsNOMX5xZWcKN6trfnw3HeB7tV7Kb1cT1%2BsgF0Vs0mql2XJOHX%2BpxV3usu9YM72Ajmafh1nDhzZuhPtBt9xO/PADC8tA64DVA86cczD5wOqchhrWzlAhTS5/wQNA3hsKmFWB4r3D54EAPPYejv/KbZP0yw7N7oBC9P0vMS0qicXANNrkUNmmva7tINW/PTO2Jz6dNNhVZ4P6H0v%2BDh3ndLgAUJmPOKbEQJL3RORc/unrGupwp%2BJbeu9s1o%2BEhM/QTdWOT/1BsKfW5qr4xHnrJe8z%2B6%2B5WkFq8guB2Q1le5aMF6HXvxUabPDzeWhNfYvcFdbO7stlpkxVaghs1uDg1LLXOSkRlOOiLoIlVsj98q/21rI8MDVlONE1gMhub2K8S5bWDO15ysWpqmOFJHolqN2bPXaTgFYG6fR/2jMlMu1Z8z/NZD69Sl2ObOXHMXx0ek2VfJ94oys%2BxpSAz/EZuz8i3MUnAnqUNMDGBUnF%2BSa4Tk4%2BTF6%2BDh61pSFoOrH/cCoxIGrgJq7xvvE9IZOi1F9OvWdPUixbWw5PMcyoSKcjXTUlGcxEpJ1VdlNYu%2BMhGutONBMFYzg5m9KEtZcXsAmVX4j1h6UAWx%2BewJo1OqG6yLTqmK4fQwrDMMU0/biOK1raoo2VUxmWNcM2xsZwcCxG11D7mjEYUXxMANiUH0vzK2EIW5je1zYjV8ACrVYepbr3zE/MwJbPPGXvjvx8OEJb%2Bo9LwfpAj1TuURz5WlhDg8x2flzzZPzv9yoPAzmy%2BOCDE64zt/ToSf4kZeAJrKo13s6VLaQOfr2ZPT7FIwFeqfKtzOShm7cxzzpvDfUzd2SMkR%2B9RuSqM8Ow6cyoTemUkVv5yurq5I7Ef/UgMl9ZXB2QNsdd4hxAKoqS8WcDh6EAgmrKSSHUxMQXjVMcROReaYca%2B2IBfTR1lDFnneB93BVg92CDvdzd1emHu/N/sN7jnu1nSfWT3BcACEuo/OyMduvW5Evtc1s8gK9BAtpK7rBMVuuO9tWXdxR%2BoMUAQkIQQ0nX792a5N2QMXiYDz3bbZjfbs4ZPXtfrmRm5A8HFMTNHxaymp6h0eHvSq9K7sintnMnbQCePCX/nlHq1tkSa3oD3ah9SdtYebkXBzVMsYVsNDcG%2BloNS9BLNOzV%2BTNW09QyFDTRy44XWziukNlltIYXXHuXWTeQZWVWWGOIxa6tblvfaRYsfExceoWsFfKihzXd8onQK77a7MOcCnjucoaKNBsompC3tZPXr8iaijUkYIdPaZjdXEZfzmSi4u/kB3dClYuHQ4eDRFt9RxTErgEwE8ec3g/8aluSigJNalAggcZNt7XvHL0F36FWEf5vulRbsNLTxcZKLx%2B6gVQO8l06IEOCIJTbpXADtBj0TeRTMtFK4z0VEsmMuRLbH4yllIHDhibHQ6jXIcBHalo6%2BYcePfIVowl2%2BrjBcK/8HhAPSS0FaK/QgFZVnQO%2BTtx98jIkm4/61K/7nTuxiqKZJYYxY5oAEPhCKer/1gqqv7Y%3D&continue=https://accounts.google.com/signin/oauth/consent?authuser%3D0%26part%3DAJi8hAPyNe2e8c2gJxdzI0qkud89-DWULogr7tYZhz7y2erc-2IMyqZOQspBT0JXGw6PtE-VxDz4Ak4mgyAvOk2c7dXdx50KvQv924RDIg0ElI2SrqCcGg6HLni6KghVBALDpPHrc-1lbS4LXR7CKY2hWcIZUg6nlUwJVytZeEsaGoQEZIrURFbon78vk2g8dyODc7T0VC1uXfhF1aMae0n2KfmS7zHXFP9lf5F6PSGVEO9qyHpz8LTaPG22pw1ygPMihT2KCPWVn_PxhEYKYx3bq1hQxAE_M8YmbogwkGxrTWp0udfITZNJ5rHs2JhTgF_N_AslVFCygNHwgNZBQ512RVHVJ2EXHZ33Foeah88tPWElJaoR785bOvg4O0Rm9U1B8fBdq-p4a4krav94Y5LGVkxmpBV4YZKY_J33JVseF-sfEtrnLOv7IEkK9NJdIT-tnDi6wsdfFdx0oAhNl9kIn8SHye0EDr3GlDM1tUtRGVcr3GOHx2M%26flowName%3DGeneralOAuthFlow%26as%3DS2080739305:1744951055931522%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%26rapt%3DAEjHL4Nx3tlIYa7p_0_JzP1OhxBihleNL0Y5eMcpDMjgrfclzr7FQt7RjrIhIkXXHmfsbqq7jct3UTolLCaOUJSfK8FqNYRjkCRzQN9M3rbL84lvC0BVfCc%23&tcc=1&dbus=IN
+2025-04-18 10:08:04,509 - WARNING - Login process might not have completed successfully, proceeding anyway...
+2025-04-18 10:08:04,509 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 10:08:15,479 - INFO - Current URL after login: https://kalvium.community/
+2025-04-18 10:08:30,756 - WARNING - Direct approach for finding attendance button failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00418660]
+	(No symbol) [0x004189FB]
+	(No symbol) [0x00461022]
+	(No symbol) [0x0043D094]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:08:30,756 - INFO - Trying JavaScript approach for attendance button
+2025-04-18 10:08:30,766 - ERROR - Could not find 'Mark Attendance' button
+2025-04-18 10:08:30,766 - ERROR - Failed to find and click Mark Attendance button
+2025-04-18 10:08:37,936 - INFO - Browser closed
+2025-04-18 10:08:44,365 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 10:08:44,366 - INFO - Starting Chrome browser...
+2025-04-18 10:08:44,366 - INFO - ====== WebDriver manager ======
+2025-04-18 10:08:45,086 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:08:45,380 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:08:45,737 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 10:08:46,849 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 10:08:46,850 - INFO - Navigating to Kalvium Community...
+2025-04-18 10:09:00,925 - INFO - Page loaded. Current URL: https://auth.kalvium.community/auth/realms/kalvium/protocol/openid-connect/auth?client_id=login_client&redirect_uri=https%3A%2F%2Fkalvium.community%2F&state=2c7a4113-bb8b-4f37-8a60-3f1e4b5a91c2&response_mode=fragment&response_type=code&scope=openid&nonce=f04693c7-4ed0-4d95-83e7-fd7e878fa179&prompt=none&code_challenge=RS4EnOTgBWUanLZhgUMX9Rp9pZ0u8NhI2iX2NYMIErQ&code_challenge_method=S256
+2025-04-18 10:09:00,925 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 10:09:13,668 - INFO - Clicked Google button using approach 1
+2025-04-18 10:09:15,668 - INFO - Handling Google login process...
+2025-04-18 10:09:15,677 - INFO - Current URL: https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-2029745138%3A1744951145227763&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&ddm=1&nonce=sIOxWE6JRY1kvk89ujB9Rg&o2v=2&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid+profile+email&service=lso&state=xd-kCFh0zy7t5FTLA4o4trFYnA3x6-ryWIV7yRt6-og.D3Skrkrr_Hg.yb4HjigsSTSnfhcl4EebXQ&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOMAXgTu1Tyr6n8CzFcvhp2Laf8Bwty5NE7MTNZaXbvv1rlZjA0Pq3SDgCMoZl0ejZJNEnh1U8KJ-iAiQva_lXFHYxAsaaEu7B-W7iebx56Hg5twp8KEoLhE2XWOqe88KH8dEAt-fLRBkfxyTxg82Xyb1eph99g82VO0V1qDBsv5PEM50yY7SrhpV4q7ZuBRz8MWm9-gmRHFeWcFYfeci21Y2o8BsIC7xQJCWC_Qp7ntTKwzGFCyzVN5PzdtOjKkveO8nZ5xrdLn6euttwyBYl1T3tiGODxbnV_B6f5_5qCJ0VFoFSKsK0Rr79ecJ96Z9QmGNcDimSH8hPwnsvMlgCZ8c3cwj5B-0IApI5ObZa9mlNu0SMmovO9mJL22JnDm0worpbmb7OrLwTs9A4eHudifG9tgBajgdWYq30CEUkbQzeXjE4BH1mKlGC6-E16_kMhqMcvMZYE77ztfnJhvKuGIyouOpjppsnFjaYZ55SXtSOVlMs%26flowName%3DGeneralOAuthFlow%26as%3DS-2029745138%253A1744951145227763%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fauth.kalvium.community&rart=ANgoxcdWIY-RCwF17N4tXQXU0esPFHhRbBXCWzNPZYdnPYyZyUO8FTzg5URPVhvYl-2ybARtvnifCkv5smFM2foQBWG_V-KAYy3KiUtNx7g5W8ZBziqQ3pM
+2025-04-18 10:09:15,841 - INFO - On email entry page
+2025-04-18 10:09:15,841 - INFO - Attempting to enter email: k.dinesh.s65@kalvium.community
+2025-04-18 10:09:15,997 - INFO - Found email input field
+2025-04-18 10:09:16,158 - INFO - Entered email address
+2025-04-18 10:09:16,180 - INFO - Found Next button, clicking...
+2025-04-18 10:09:16,282 - INFO - Clicked Next button after email
+2025-04-18 10:09:22,335 - INFO - On password entry page
+2025-04-18 10:09:22,335 - INFO - Attempting to enter password
+2025-04-18 10:09:22,449 - INFO - Found password input field
+2025-04-18 10:09:22,524 - INFO - Entered password
+2025-04-18 10:09:22,544 - INFO - Found Next button, clicking...
+2025-04-18 10:09:22,614 - INFO - Clicked Next button after password
+2025-04-18 10:09:27,615 - INFO - Waiting for login completion...
+2025-04-18 10:09:35,709 - INFO - Successfully logged in and returned to Kalvium
+2025-04-18 10:09:35,709 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 10:09:35,717 - INFO - Current URL after login: https://accounts.google.com/v3/signin/challenge/dp?TL=ADBLaQCMMt7Kl2bTSUhn-Wt6uSeE8U-oP68KIsUTwCC0dG7zDTH41mb9r0xxp8z7&app_domain=https%3A%2F%2Fauth.kalvium.community&checkConnection=youtube%3A1125&checkedDomains=youtube&cid=10&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOMAXgTu1Tyr6n8CzFcvhp2Laf8Bwty5NE7MTNZaXbvv1rlZjA0Pq3SDgCMoZl0ejZJNEnh1U8KJ-iAiQva_lXFHYxAsaaEu7B-W7iebx56Hg5twp8KEoLhE2XWOqe88KH8dEAt-fLRBkfxyTxg82Xyb1eph99g82VO0V1qDBsv5PEM50yY7SrhpV4q7ZuBRz8MWm9-gmRHFeWcFYfeci21Y2o8BsIC7xQJCWC_Qp7ntTKwzGFCyzVN5PzdtOjKkveO8nZ5xrdLn6euttwyBYl1T3tiGODxbnV_B6f5_5qCJ0VFoFSKsK0Rr79ecJ96Z9QmGNcDimSH8hPwnsvMlgCZ8c3cwj5B-0IApI5ObZa9mlNu0SMmovO9mJL22JnDm0worpbmb7OrLwTs9A4eHudifG9tgBajgdWYq30CEUkbQzeXjE4BH1mKlGC6-E16_kMhqMcvMZYE77ztfnJhvKuGIyouOpjppsnFjaYZ55SXtSOVlMs%26flowName%3DGeneralOAuthFlow%26as%3DS-2029745138%253A1744951145227763%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&ddm=1&dsh=S-2029745138%3A1744951145227763&flowName=GeneralOAuthFlow&nonce=sIOxWE6JRY1kvk89ujB9Rg&o2v=2&opparams=%253F&pstMsg=1&rart=ANgoxcdWIY-RCwF17N4tXQXU0esPFHhRbBXCWzNPZYdnPYyZyUO8FTzg5URPVhvYl-2ybARtvnifCkv5smFM2foQBWG_V-KAYy3KiUtNx7g5W8ZBziqQ3pM&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid%20profile%20email&service=lso&state=xd-kCFh0zy7t5FTLA4o4trFYnA3x6-ryWIV7yRt6-og.D3Skrkrr_Hg.yb4HjigsSTSnfhcl4EebXQ
+2025-04-18 10:09:50,992 - WARNING - Direct approach for finding attendance button failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00418660]
+	(No symbol) [0x004189FB]
+	(No symbol) [0x00461022]
+	(No symbol) [0x0043D094]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:09:50,992 - INFO - Trying JavaScript approach for attendance button
+2025-04-18 10:09:51,052 - ERROR - Could not find 'Mark Attendance' button
+2025-04-18 10:09:51,052 - ERROR - Failed to find and click Mark Attendance button
+2025-04-18 10:09:58,192 - INFO - Browser closed
+2025-04-18 10:10:01,223 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 10:10:01,223 - INFO - Starting Chrome browser...
+2025-04-18 10:10:01,223 - INFO - ====== WebDriver manager ======
+2025-04-18 10:10:01,955 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:10:03,482 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:10:04,872 - ERROR - An error occurred: Could not reach host. Are you offline?
+2025-04-18 10:10:04,879 - ERROR - Traceback (most recent call last):
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='googlechromelabs.github.io', port=443): Max retries exceeded with url: /chrome-for-testing/latest-patch-versions-per-build.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\core\http.py", line 32, in get
+    resp = requests.get(
+        url=url, verify=self._ssl_verify, stream=True, **kwargs)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='googlechromelabs.github.io', port=443): Max retries exceeded with url: /chrome-for-testing/latest-patch-versions-per-build.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1028)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\script\script.py", line 51, in main
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\core\manager.py", line 35, in _get_driver_binary_path
+    binary_path = self._cache_manager.find_driver(driver)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\core\driver_cache.py", line 110, in find_driver
+    key = self.__get_metadata_key(driver)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\core\driver_cache.py", line 144, in __get_metadata_key
+    driver_version = self.get_cache_key_driver_version(driver)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\core\driver_cache.py", line 154, in get_cache_key_driver_version
+    return driver.get_driver_version_to_download()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\core\driver.py", line 48, in get_driver_version_to_download
+    return self.get_latest_release_version()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\drivers\chrome.py", line 59, in get_latest_release_version
+    response = self._http_client.get(url)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\webdriver_manager\core\http.py", line 35, in get
+    raise exceptions.ConnectionError(f"Could not reach host. Are you offline?")
+requests.exceptions.ConnectionError: Could not reach host. Are you offline?
+
+2025-04-18 10:10:08,416 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 10:10:08,416 - INFO - Starting Chrome browser...
+2025-04-18 10:10:08,416 - INFO - ====== WebDriver manager ======
+2025-04-18 10:10:09,238 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:10:09,633 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:10:09,876 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 10:10:10,978 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 10:10:10,978 - INFO - Navigating to Kalvium Community...
+2025-04-18 10:10:21,327 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 10:10:21,327 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 10:10:24,648 - INFO - Clicked Google button using approach 1
+2025-04-18 10:10:26,649 - INFO - Handling Google login process...
+2025-04-18 10:10:26,659 - INFO - Current URL: https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-1624018628%3A1744951218813820&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&ddm=1&nonce=MpyHSRTUfDdarUyqvzGdIg&o2v=2&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid+profile+email&service=lso&state=Df6TpBj5zGm2mytZD6ALIKL3PtPLQx4AbjSKFLtHi1c.cpEI3Y1l_Is.yb4HjigsSTSnfhcl4EebXQ&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANdF9zef9fwvwlSjnvmuJbZRLw4NTko06s--VIvkPMfS1_PVqqwsJvvh4kQg-1TZwQLF4DXv1LJrsYy_wxQWWE8MhGiPKlZeSzuN0Ds6G7tMFRwZ7IuHmnD06Yt_hUMFfh45OwvzVdmmPufSzIg9I1IXT5puOkVgtVRdb70Wmt0jXA-PxawX_noSNGrH3kKFQHGLP_WBFFqO8SjsPhTu2KuplRoBZSMLSHmsrzxp9nErVUTixogdvbsRCTt1HehM91B9NwSTq7zUGwgYi5Mu-YYW5_yy-_wy24QuK5wRgQKUF9d7c4tEF_aMIeWU552Bs4HPslJVzhfkfYIauAC96kn78JMzUSRXq69fGGsputbrU4GQoY2fwmK3FTmZdk-nwG3hXQ6sJaU9r3c91fYtQjpF5qHrkWKcJk69EbVyZPNe-1fX4XTmhCbsDVB3ZKgR6Sy6aZEI6ordw-YWLOLJsTY-ikkMraMi151cA9TV2TwBpxrIho%26flowName%3DGeneralOAuthFlow%26as%3DS-1624018628%253A1744951218813820%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fauth.kalvium.community&rart=ANgoxcdO-5kGGITOWMt-baPi-obw2IevalhjsWglWflII3mONRQkgj3sGcign05ysr9JHNCrIbBLMi62vWBDKEtgDNGskXOO8p-bGRecf905NEXfaHi_www
+2025-04-18 10:10:26,765 - INFO - On email entry page
+2025-04-18 10:10:26,765 - INFO - Attempting to enter email: k.dinesh.s65@kalvium.community
+2025-04-18 10:10:26,890 - INFO - Found email input field
+2025-04-18 10:10:27,040 - INFO - Entered email address
+2025-04-18 10:10:27,061 - INFO - Found Next button, clicking...
+2025-04-18 10:10:27,157 - INFO - Clicked Next button after email
+2025-04-18 10:10:33,230 - INFO - On password entry page
+2025-04-18 10:10:33,230 - INFO - Attempting to enter password
+2025-04-18 10:10:33,330 - INFO - Found password input field
+2025-04-18 10:10:33,401 - INFO - Entered password
+2025-04-18 10:10:33,423 - INFO - Found Next button, clicking...
+2025-04-18 10:10:33,490 - INFO - Clicked Next button after password
+2025-04-18 10:10:38,490 - INFO - Waiting for login completion...
+2025-04-18 10:10:46,659 - INFO - Successfully logged in and returned to Kalvium
+2025-04-18 10:10:46,659 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 10:10:46,665 - INFO - Current URL after login: https://kalvium.community/
+2025-04-18 10:11:01,946 - WARNING - Direct approach for finding attendance button failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00418660]
+	(No symbol) [0x004189FB]
+	(No symbol) [0x00461022]
+	(No symbol) [0x0043D094]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:11:01,947 - INFO - Trying JavaScript approach for attendance button
+2025-04-18 10:11:01,956 - ERROR - Could not find 'Mark Attendance' button
+2025-04-18 10:11:01,956 - ERROR - Failed to find and click Mark Attendance button
+2025-04-18 10:11:09,105 - INFO - Browser closed
+2025-04-18 10:18:50,831 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 10:18:50,832 - INFO - Starting Chrome browser...
+2025-04-18 10:18:50,832 - INFO - ====== WebDriver manager ======
+2025-04-18 10:18:51,574 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:18:52,295 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:18:52,598 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 10:18:53,699 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 10:18:53,699 - INFO - Navigating to Kalvium Community...
+2025-04-18 10:18:58,111 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 10:18:58,112 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 10:19:00,344 - INFO - Clicked Google button using approach 1
+2025-04-18 10:19:02,345 - INFO - Handling Google login process...
+2025-04-18 10:19:02,356 - INFO - Current URL: https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S839843772%3A1744951735342183&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&ddm=1&nonce=858SGU1BbxRQGmtnH2Y7Dw&o2v=2&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid+profile+email&service=lso&state=hZ946CJlsUct383zraQnYUKu3NFHjxRTCLpYZqB7ZYM.1dhO_ce2puk.yb4HjigsSTSnfhcl4EebXQ&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANYIZUKmLsDKpAOrG9kehv__kXOoM0VLPkQcWl5G3qidmsS-6fHOKZ2Pah8YqtfXJ_yuNO3jTex6FiV_ZFeYbBBqnqzA2uZKxisPHxS4U3JkrJo4u8qGs81FOQxXmo5cOpTfArhZJyWt8A5WEEJCxloQ6TpCO3kzzMLJnxJ1PQp-BKonS-O0rr8xC4rpa4JHLRS8ooGdvtohL0de6XLHwWYi2354AglFqSdFPcKrbzZa-PS1Ft5rQUUKgQ6TqtmC0mmysxwrubK7t1Gfse1XW7Tsiziseef3TFvIpcQqCyF9u3x7vNglacQ4uCLI0QQp9kZotPdwQVDXQ4X_kBx76SyNQaPsaLOc-l1-4VJb6TisdSVcYkWYVsBytNZ-2jUoOQKA-16zgb5KqQH80eMMs2Tb43rE6CsBx0JPKUtHeynVKmtaTeLFQJLFiBKEnFs8aPKBuadBNFSY1VDptRlGIMQAPELXvP1vapl7MWi-f_lhj2ffZk%26flowName%3DGeneralOAuthFlow%26as%3DS839843772%253A1744951735342183%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fauth.kalvium.community&rart=ANgoxccdTs4T1We1OwJM9jStjJR6CB-Tj02wqmfoN2D4CpeAN5nd_LpPGxlBRpI6IPVufRgAFgcnjqilazBNW9al5174BUym_rHWSvRvrgc-rjah7u6l-pk
+2025-04-18 10:19:02,460 - INFO - On email entry page
+2025-04-18 10:19:02,461 - INFO - Attempting to enter email: k.dinesh.s65@kalvium.community
+2025-04-18 10:19:02,579 - INFO - Found email input field
+2025-04-18 10:19:02,723 - INFO - Entered email address
+2025-04-18 10:19:02,746 - INFO - Found Next button, clicking...
+2025-04-18 10:19:02,842 - INFO - Clicked Next button after email
+2025-04-18 10:19:08,893 - INFO - On password entry page
+2025-04-18 10:19:08,893 - INFO - Attempting to enter password
+2025-04-18 10:19:09,022 - INFO - Found password input field
+2025-04-18 10:19:09,110 - INFO - Entered password
+2025-04-18 10:19:09,130 - INFO - Found Next button, clicking...
+2025-04-18 10:19:09,200 - INFO - Clicked Next button after password
+2025-04-18 10:19:14,200 - INFO - Waiting for login completion...
+2025-04-18 10:19:22,300 - INFO - Successfully logged in and returned to Kalvium
+2025-04-18 10:19:22,391 - INFO - Checking if user is already marked as present...
+2025-04-18 10:19:27,505 - INFO - No present indicator found via direct method
+2025-04-18 10:19:27,515 - INFO - No confirmation text found
+2025-04-18 10:19:27,521 - ERROR - Error checking if already present: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:19:27,548 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 166, in check_if_already_present
+    already_present = driver.execute_script("""
+        // Check for various indicators that user is already present
+    ...<22 lines>...
+        return false;
+    """)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 528, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-18 10:19:27,548 - INFO - Attempt 1/3 to find and click Mark Attendance button
+2025-04-18 10:19:27,548 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 10:19:27,555 - INFO - Current URL after login: https://accounts.google.com/v3/signin/challenge/dp?TL=ADBLaQDy8VdfUFv9oxL0UDM80UTsp-V3fZwmvOeoh-cNHpmtF_UgyOn-xeveBMTe&app_domain=https%3A%2F%2Fauth.kalvium.community&checkConnection=youtube%3A611&checkedDomains=youtube&cid=10&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANYIZUKmLsDKpAOrG9kehv__kXOoM0VLPkQcWl5G3qidmsS-6fHOKZ2Pah8YqtfXJ_yuNO3jTex6FiV_ZFeYbBBqnqzA2uZKxisPHxS4U3JkrJo4u8qGs81FOQxXmo5cOpTfArhZJyWt8A5WEEJCxloQ6TpCO3kzzMLJnxJ1PQp-BKonS-O0rr8xC4rpa4JHLRS8ooGdvtohL0de6XLHwWYi2354AglFqSdFPcKrbzZa-PS1Ft5rQUUKgQ6TqtmC0mmysxwrubK7t1Gfse1XW7Tsiziseef3TFvIpcQqCyF9u3x7vNglacQ4uCLI0QQp9kZotPdwQVDXQ4X_kBx76SyNQaPsaLOc-l1-4VJb6TisdSVcYkWYVsBytNZ-2jUoOQKA-16zgb5KqQH80eMMs2Tb43rE6CsBx0JPKUtHeynVKmtaTeLFQJLFiBKEnFs8aPKBuadBNFSY1VDptRlGIMQAPELXvP1vapl7MWi-f_lhj2ffZk%26flowName%3DGeneralOAuthFlow%26as%3DS839843772%253A1744951735342183%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&ddm=1&dsh=S839843772%3A1744951735342183&flowName=GeneralOAuthFlow&nonce=858SGU1BbxRQGmtnH2Y7Dw&o2v=2&opparams=%253F&pstMsg=1&rart=ANgoxccdTs4T1We1OwJM9jStjJR6CB-Tj02wqmfoN2D4CpeAN5nd_LpPGxlBRpI6IPVufRgAFgcnjqilazBNW9al5174BUym_rHWSvRvrgc-rjah7u6l-pk&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid%20profile%20email&service=lso&state=hZ946CJlsUct383zraQnYUKu3NFHjxRTCLpYZqB7ZYM.1dhO_ce2puk.yb4HjigsSTSnfhcl4EebXQ
+2025-04-18 10:19:42,798 - WARNING - Direct approach for finding attendance button failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00418660]
+	(No symbol) [0x004189FB]
+	(No symbol) [0x00461022]
+	(No symbol) [0x0043D094]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:19:42,798 - INFO - Trying JavaScript approach for attendance button
+2025-04-18 10:19:42,858 - ERROR - Could not find 'Mark Attendance' button
+2025-04-18 10:19:42,859 - WARNING - Attempt 1 failed, waiting 3 seconds before retry
+2025-04-18 10:19:45,859 - INFO - Attempt 2/3 to find and click Mark Attendance button
+2025-04-18 10:19:45,860 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 10:19:45,868 - INFO - Current URL after login: https://accounts.google.com/v3/signin/challenge/dp?TL=ADBLaQDy8VdfUFv9oxL0UDM80UTsp-V3fZwmvOeoh-cNHpmtF_UgyOn-xeveBMTe&app_domain=https%3A%2F%2Fauth.kalvium.community&checkConnection=youtube%3A611&checkedDomains=youtube&cid=10&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANYIZUKmLsDKpAOrG9kehv__kXOoM0VLPkQcWl5G3qidmsS-6fHOKZ2Pah8YqtfXJ_yuNO3jTex6FiV_ZFeYbBBqnqzA2uZKxisPHxS4U3JkrJo4u8qGs81FOQxXmo5cOpTfArhZJyWt8A5WEEJCxloQ6TpCO3kzzMLJnxJ1PQp-BKonS-O0rr8xC4rpa4JHLRS8ooGdvtohL0de6XLHwWYi2354AglFqSdFPcKrbzZa-PS1Ft5rQUUKgQ6TqtmC0mmysxwrubK7t1Gfse1XW7Tsiziseef3TFvIpcQqCyF9u3x7vNglacQ4uCLI0QQp9kZotPdwQVDXQ4X_kBx76SyNQaPsaLOc-l1-4VJb6TisdSVcYkWYVsBytNZ-2jUoOQKA-16zgb5KqQH80eMMs2Tb43rE6CsBx0JPKUtHeynVKmtaTeLFQJLFiBKEnFs8aPKBuadBNFSY1VDptRlGIMQAPELXvP1vapl7MWi-f_lhj2ffZk%26flowName%3DGeneralOAuthFlow%26as%3DS839843772%253A1744951735342183%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&ddm=1&dsh=S839843772%3A1744951735342183&flowName=GeneralOAuthFlow&nonce=858SGU1BbxRQGmtnH2Y7Dw&o2v=2&opparams=%253F&pstMsg=1&rart=ANgoxccdTs4T1We1OwJM9jStjJR6CB-Tj02wqmfoN2D4CpeAN5nd_LpPGxlBRpI6IPVufRgAFgcnjqilazBNW9al5174BUym_rHWSvRvrgc-rjah7u6l-pk&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid%20profile%20email&service=lso&state=hZ946CJlsUct383zraQnYUKu3NFHjxRTCLpYZqB7ZYM.1dhO_ce2puk.yb4HjigsSTSnfhcl4EebXQ
+2025-04-18 10:20:01,106 - WARNING - Direct approach for finding attendance button failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00418660]
+	(No symbol) [0x004189FB]
+	(No symbol) [0x00461022]
+	(No symbol) [0x0043D094]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:20:01,106 - INFO - Trying JavaScript approach for attendance button
+2025-04-18 10:20:01,169 - ERROR - Could not find 'Mark Attendance' button
+2025-04-18 10:20:01,169 - WARNING - Attempt 2 failed, waiting 3 seconds before retry
+2025-04-18 10:20:04,170 - INFO - Attempt 3/3 to find and click Mark Attendance button
+2025-04-18 10:20:04,170 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 10:20:04,179 - INFO - Current URL after login: https://accounts.google.com/v3/signin/challenge/dp?TL=ADBLaQDy8VdfUFv9oxL0UDM80UTsp-V3fZwmvOeoh-cNHpmtF_UgyOn-xeveBMTe&app_domain=https%3A%2F%2Fauth.kalvium.community&checkConnection=youtube%3A611&checkedDomains=youtube&cid=10&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANYIZUKmLsDKpAOrG9kehv__kXOoM0VLPkQcWl5G3qidmsS-6fHOKZ2Pah8YqtfXJ_yuNO3jTex6FiV_ZFeYbBBqnqzA2uZKxisPHxS4U3JkrJo4u8qGs81FOQxXmo5cOpTfArhZJyWt8A5WEEJCxloQ6TpCO3kzzMLJnxJ1PQp-BKonS-O0rr8xC4rpa4JHLRS8ooGdvtohL0de6XLHwWYi2354AglFqSdFPcKrbzZa-PS1Ft5rQUUKgQ6TqtmC0mmysxwrubK7t1Gfse1XW7Tsiziseef3TFvIpcQqCyF9u3x7vNglacQ4uCLI0QQp9kZotPdwQVDXQ4X_kBx76SyNQaPsaLOc-l1-4VJb6TisdSVcYkWYVsBytNZ-2jUoOQKA-16zgb5KqQH80eMMs2Tb43rE6CsBx0JPKUtHeynVKmtaTeLFQJLFiBKEnFs8aPKBuadBNFSY1VDptRlGIMQAPELXvP1vapl7MWi-f_lhj2ffZk%26flowName%3DGeneralOAuthFlow%26as%3DS839843772%253A1744951735342183%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&ddm=1&dsh=S839843772%3A1744951735342183&flowName=GeneralOAuthFlow&nonce=858SGU1BbxRQGmtnH2Y7Dw&o2v=2&opparams=%253F&pstMsg=1&rart=ANgoxccdTs4T1We1OwJM9jStjJR6CB-Tj02wqmfoN2D4CpeAN5nd_LpPGxlBRpI6IPVufRgAFgcnjqilazBNW9al5174BUym_rHWSvRvrgc-rjah7u6l-pk&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid%20profile%20email&service=lso&state=hZ946CJlsUct383zraQnYUKu3NFHjxRTCLpYZqB7ZYM.1dhO_ce2puk.yb4HjigsSTSnfhcl4EebXQ
+2025-04-18 10:20:19,416 - WARNING - Direct approach for finding attendance button failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00418660]
+	(No symbol) [0x004189FB]
+	(No symbol) [0x00461022]
+	(No symbol) [0x0043D094]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:20:19,416 - INFO - Trying JavaScript approach for attendance button
+2025-04-18 10:20:19,477 - ERROR - Could not find 'Mark Attendance' button
+2025-04-18 10:20:19,478 - WARNING - Attempt 3 failed, waiting 3 seconds before retry
+2025-04-18 10:20:22,478 - ERROR - Failed to find and click Mark Attendance button after multiple attempts
+2025-04-18 10:20:29,639 - INFO - Browser closed
+2025-04-18 10:26:21,595 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 10:26:21,595 - INFO - Starting Chrome browser...
+2025-04-18 10:26:21,595 - INFO - ====== WebDriver manager ======
+2025-04-18 10:26:22,333 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:26:22,639 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:26:22,894 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 10:26:24,012 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 10:26:24,012 - INFO - Navigating to Kalvium Community...
+2025-04-18 10:26:29,430 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 10:26:29,430 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 10:26:31,763 - INFO - Clicked Google button using approach 1
+2025-04-18 10:26:33,764 - INFO - Handling Google login process...
+2025-04-18 10:26:33,773 - INFO - Current URL: https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-987585220%3A1744952186642540&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&ddm=1&nonce=SYRsP83ES9dwy0i6cjw1xw&o2v=2&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid+profile+email&service=lso&state=uOSfKvmiKPaMF5ChMWVylMhgEsuWvoMAUO07DYPY9Gs.cFBYxYL87ek.yb4HjigsSTSnfhcl4EebXQ&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANsuX-RkYfv8yC2rQdsMyYmhsbddBmNziKMouPdAPlhF1i6GOqvDi4JzYSOElmcebWoTsRZPEZd0Ak9UUlhaNml_rnLuP_ulsjXj8ONCseuNNbIP9WzJsIvzwhu0TvQBoDZadUwKXx-4xXTcXnxZhy_6l5tbRYpjpigjyUkhdT3W8-nc14b6j3grbckgQhSsYQntMub9a8UreB0LmtAMEgcoZ4tkT3yNmgzzcs37_yBRD2VO-TTDLOm4tPJQKfOCt5PIVMxGUaTFW31hmwRXOSqmxtnAWemrTtbgUfsVo8nxOyJ2nGWuQJbrl9Abg0RtAhkimBk-yUZj3g7Fly8om_Hdnfg00Fd6Y--7W90FyFf8UaxbMRUCflRz41TZCvCGils3526HH6qnGDpsiaBWEi0EvfxrsyVjyNyVAEu9CAQSm074iWbcvy0vzITA01PhkwEQCioruvKkeb9DzMg2LshDuqZB3AyAZCvQNNyWx1utC-Nk0w%26flowName%3DGeneralOAuthFlow%26as%3DS-987585220%253A1744952186642540%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fauth.kalvium.community&rart=ANgoxceXeqzLizjxU7ZGHTvYGfzaTVVu4KjjPrbUCz5C2JQd0yv71D9Lz6EHz59Z-9v3u_XuSM1um4OPv7FGEvK_-JK4Dek15pNu_x1qtQevsisPeTi3hFk
+2025-04-18 10:26:33,888 - INFO - On email entry page
+2025-04-18 10:26:33,888 - INFO - Attempting to enter email: k.dinesh.s65@kalvium.community
+2025-04-18 10:26:33,993 - INFO - Found email input field
+2025-04-18 10:26:34,160 - INFO - Entered email address
+2025-04-18 10:26:34,182 - INFO - Found Next button, clicking...
+2025-04-18 10:26:34,281 - INFO - Clicked Next button after email
+2025-04-18 10:26:40,330 - INFO - On password entry page
+2025-04-18 10:26:40,331 - INFO - Attempting to enter password
+2025-04-18 10:26:40,453 - INFO - Found password input field
+2025-04-18 10:26:40,532 - INFO - Entered password
+2025-04-18 10:26:40,550 - INFO - Found Next button, clicking...
+2025-04-18 10:26:40,624 - INFO - Clicked Next button after password
+2025-04-18 10:26:45,625 - INFO - Waiting for login completion...
+2025-04-18 10:26:53,747 - INFO - Successfully logged in and returned to Kalvium
+2025-04-18 10:26:53,863 - INFO - Checking if user is already marked as present...
+2025-04-18 10:26:59,009 - INFO - No present indicator found via direct method
+2025-04-18 10:26:59,028 - INFO - Found confirmation text: Yay! You're marked as present. Stay focussed and keep going.
+2025-04-18 10:26:59,030 - INFO - Closing the browser in 5 seconds...
+2025-04-18 10:27:11,175 - INFO - Browser closed
+2025-04-18 10:27:20,600 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 10:27:20,600 - INFO - Starting Chrome browser...
+2025-04-18 10:27:20,601 - INFO - ====== WebDriver manager ======
+2025-04-18 10:27:21,312 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:27:21,582 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:27:21,841 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 10:27:22,934 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 10:27:22,934 - INFO - Navigating to Kalvium Community...
+2025-04-18 10:27:26,080 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 10:27:26,080 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 10:27:28,282 - INFO - Clicked Google button using approach 1
+2025-04-18 10:27:30,283 - INFO - Handling Google login process...
+2025-04-18 10:27:30,293 - INFO - Current URL: https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-2126748290%3A1744952243333108&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&ddm=1&nonce=CQ86wEyb3rGrMazoeTQDOA&o2v=2&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid+profile+email&service=lso&state=DkZQ9HsUxLtqccLcds-HIDeJxmwHc__DrX9b6vO8pTQ.6P2-SSqe2Eg.yb4HjigsSTSnfhcl4EebXQ&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANXvAjWfwanGMm7bewmMeQkEBZW6eQBLIkwO0zsqZWgJTdPDVNb2fuM7v408snDhhgzFW4w88XQugoCRukGALYDy3sZyqcHbN0ovB9D2Ew6K7nhc8iSieIxKEVvqvvFYHeSBEZ23_zyRePCHmraWdhAnAYUbPjTm44HRyE68gCAiERhtJSLX1GZEAme1Ot_mo7VmdJfz5EObDmwbfpRlOfKdT9usV8IR3oWN_xQEOTUJRDrazWJoFpJBWBk0nxtT4GNka2M8HnWDhrZhbpBJgI7sWeGtUTnSUpMnpFLhtc5CydNoks-uhNiVf1iiSox3mk5oRfdEU3HDj2p0tihwSkZY0DyEZjIOLqvAgtoTyycoqC02f2kEtOAr7an7LIBc1_7rhhTlM_YQc-lZP-aDhn6xUFEu2vX8UICsoN-HJJPe0huJ8Jmnv1GygMw8RJ4WH4fjl1e5J6fSSMuQDehyiZ87DlGgtnPlBdsztxp0uWdeNn68DU%26flowName%3DGeneralOAuthFlow%26as%3DS-2126748290%253A1744952243333108%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fauth.kalvium.community&rart=ANgoxceJ68rH8IDlHKSJXibk9aLbguEGPHhbG3Opw2y4IwCWH5ZhnYMvYNeeAzPqoY4Sfn_Hc8uC-EP8yiXtkSVGDPy-oJ8bjJn20ZB0MSVoNU1hqGkoJCI
+2025-04-18 10:27:30,397 - INFO - On email entry page
+2025-04-18 10:27:30,398 - INFO - Attempting to enter email: k.dinesh.s65@kalvium.community
+2025-04-18 10:27:30,532 - INFO - Found email input field
+2025-04-18 10:27:30,675 - INFO - Entered email address
+2025-04-18 10:27:30,698 - INFO - Found Next button, clicking...
+2025-04-18 10:27:30,796 - INFO - Clicked Next button after email
+2025-04-18 10:27:36,844 - INFO - On password entry page
+2025-04-18 10:27:36,845 - INFO - Attempting to enter password
+2025-04-18 10:27:36,963 - INFO - Found password input field
+2025-04-18 10:27:37,037 - INFO - Entered password
+2025-04-18 10:27:37,057 - INFO - Found Next button, clicking...
+2025-04-18 10:27:37,128 - INFO - Clicked Next button after password
+2025-04-18 10:27:42,129 - INFO - Waiting for login completion...
+2025-04-18 10:27:50,242 - INFO - Successfully logged in and returned to Kalvium
+2025-04-18 10:27:50,354 - INFO - Checking if user is already marked as present...
+2025-04-18 10:27:55,582 - INFO - No present indicator found via direct method
+2025-04-18 10:27:55,591 - INFO - No confirmation text found
+2025-04-18 10:27:55,598 - ERROR - Error checking if already present: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:27:55,602 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 166, in check_if_already_present
+    already_present = driver.execute_script("""
+        // Check for various indicators that user is already present
+    ...<22 lines>...
+        return false;
+    """)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 528, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-18 10:27:55,603 - INFO - Attempt 1/3 to find and click Mark Attendance button
+2025-04-18 10:27:55,603 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 10:27:55,609 - INFO - Current URL after login: https://kalvium.community/
+2025-04-18 10:28:10,940 - WARNING - Direct approach for finding attendance button failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00418660]
+	(No symbol) [0x004189FB]
+	(No symbol) [0x00461022]
+	(No symbol) [0x0043D094]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:28:10,940 - INFO - Trying JavaScript approach for attendance button
+2025-04-18 10:28:10,948 - ERROR - Could not find 'Mark Attendance' button
+2025-04-18 10:28:10,948 - WARNING - Attempt 1 failed, waiting 3 seconds before retry
+2025-04-18 10:28:13,949 - INFO - Attempt 2/3 to find and click Mark Attendance button
+2025-04-18 10:28:13,949 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 10:28:13,958 - INFO - Current URL after login: https://kalvium.community/
+2025-04-18 10:28:29,243 - WARNING - Direct approach for finding attendance button failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00418660]
+	(No symbol) [0x004189FB]
+	(No symbol) [0x00461022]
+	(No symbol) [0x0043D094]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:28:29,244 - INFO - Trying JavaScript approach for attendance button
+2025-04-18 10:28:29,250 - ERROR - Could not find 'Mark Attendance' button
+2025-04-18 10:28:29,251 - WARNING - Attempt 2 failed, waiting 3 seconds before retry
+2025-04-18 10:28:32,251 - INFO - Attempt 3/3 to find and click Mark Attendance button
+2025-04-18 10:28:32,255 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 10:28:32,262 - INFO - Current URL after login: https://kalvium.community/
+2025-04-18 10:28:47,552 - WARNING - Direct approach for finding attendance button failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00418660]
+	(No symbol) [0x004189FB]
+	(No symbol) [0x00461022]
+	(No symbol) [0x0043D094]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:28:47,552 - INFO - Trying JavaScript approach for attendance button
+2025-04-18 10:28:47,559 - ERROR - Could not find 'Mark Attendance' button
+2025-04-18 10:28:47,559 - WARNING - Attempt 3 failed, waiting 3 seconds before retry
+2025-04-18 10:28:50,559 - ERROR - Failed to find and click Mark Attendance button after multiple attempts
+2025-04-18 10:28:57,711 - INFO - Browser closed
+2025-04-18 10:37:34,097 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 10:37:34,097 - INFO - Starting Chrome browser...
+2025-04-18 10:37:34,097 - INFO - ====== WebDriver manager ======
+2025-04-18 10:37:34,865 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:37:35,139 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 10:37:35,519 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 10:37:36,638 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 10:37:36,641 - INFO - Navigating to Kalvium Community...
+2025-04-18 10:37:39,709 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 10:37:39,710 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 10:37:41,942 - INFO - Clicked Google button using approach 1
+2025-04-18 10:37:43,942 - INFO - Handling Google login process...
+2025-04-18 10:37:43,952 - INFO - Current URL: https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-1893850523%3A1744952857007666&client_id=951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com&ddm=1&nonce=o-8lv2w8vBEKvZd1-KnaHg&o2v=2&redirect_uri=https%3A%2F%2Fauth.kalvium.community%2Fauth%2Frealms%2Fkalvium%2Fbroker%2Fgoogle%2Fendpoint&response_type=code&scope=openid+profile+email&service=lso&state=1-8cFqrFl7j7bZjlnO2-aQJUd0wVUFumJof65ESnTsg.er_Ntwh0zRg.yb4HjigsSTSnfhcl4EebXQ&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAO04hgjrRh2WffvR77HsBnzlmoXl3ydSF4SckY5GbtQwJAwFcfOqpcnv1GCf0W_6YovT3FLTvgs4tWiGba5YY3i-h7huEIlkv0WBMQ7AvEKAeJXkYii73_1PEEBKvK08zCcG4ywEWVgtKQdzTxxSdQCyzk01oWUsPGNsnbACLSf6wqkzrhwHY-k-zttlt697HBNCSYkxHeQ6qSA8KxKzuyyGUQpy8Mk72bwLIdfi451EQoaopj4_0GE6yxY07e1UBHMtmaWCxH16PNHG0vF1qNfWuIuSqRLoTib8AYmdCPqjuZ2NlEANE3iRsCaQrzuFqVna6GSMtv08OggLIGsb-hPKYrwt7_URp18K_Iwf4v8IoVPbFZ-AeQAbbgv5OPsGSxT5wQchN7bx3G_nhs63s2y3AZ8ha_0O-jC-dRdmaUvFI4dWxHS6d3urVYlyDKQO8a1KatL1dHBCUF5p4D0ATjZLbRLRXb1EI0Oi4XH9Ma2R_UjNy4%26flowName%3DGeneralOAuthFlow%26as%3DS-1893850523%253A1744952857007666%26client_id%3D951876639565-5b07tneb37fsam7hem5k7pa84qj8j1r3.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fauth.kalvium.community&rart=ANgoxcc-kusvXHWqbG6Ga0krrNKAVQH4Or45ahED2i14mixawul1h7y197APYKeoIhv63FZa2em-Hw0TkhIXed8AhPMo16-CvxknGNfpFqKfFBZ8sBsNqes
+2025-04-18 10:37:44,047 - INFO - On email entry page
+2025-04-18 10:37:44,047 - INFO - Attempting to enter email: k.dinesh.s65@kalvium.community
+2025-04-18 10:37:44,155 - INFO - Found email input field
+2025-04-18 10:37:44,298 - INFO - Entered email address
+2025-04-18 10:37:44,320 - INFO - Found Next button, clicking...
+2025-04-18 10:37:44,418 - INFO - Clicked Next button after email
+2025-04-18 10:37:50,468 - INFO - On password entry page
+2025-04-18 10:37:50,468 - INFO - Attempting to enter password
+2025-04-18 10:37:50,592 - INFO - Found password input field
+2025-04-18 10:37:50,665 - INFO - Entered password
+2025-04-18 10:37:50,685 - INFO - Found Next button, clicking...
+2025-04-18 10:37:50,755 - INFO - Clicked Next button after password
+2025-04-18 10:37:55,756 - INFO - Waiting for login completion...
+2025-04-18 10:38:03,869 - INFO - Successfully logged in and returned to Kalvium
+2025-04-18 10:38:03,972 - INFO - Checking if user is already marked as present...
+2025-04-18 10:38:08,974 - ERROR - Error checking if already present: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003BFED0]
+	(No symbol) [0x003DDD3F]
+	(No symbol) [0x00443D7F]
+	(No symbol) [0x0045E129]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:38:08,975 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 139, in check_if_already_present
+    driver.save_screenshot(screenshot_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 994, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 969, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1003, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1013, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003BFED0]
+	(No symbol) [0x003DDD3F]
+	(No symbol) [0x00443D7F]
+	(No symbol) [0x0045E129]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-18 10:38:08,976 - INFO - Attempt 1/3 to find and click Mark Attendance button
+2025-04-18 10:38:08,976 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 10:38:09,052 - ERROR - Error finding Mark Attendance button: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D04FE]
+	(No symbol) [0x0040B898]
+	(No symbol) [0x0043CF06]
+	(No symbol) [0x004389D5]
+	(No symbol) [0x00437F66]
+	(No symbol) [0x003A36E5]
+	(No symbol) [0x003A3C3E]
+	(No symbol) [0x003A40CD]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	(No symbol) [0x003A33B0]
+	(No symbol) [0x003A2BC3]
+	GetHandleVerifier [0x0090D23C+3620588]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:38:09,053 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 566, in find_and_click_mark_attendance
+    WebDriverWait(driver, 30).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        lambda d: "kalvium" in d.current_url.lower()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "D:\script\script.py", line 567, in <lambda>
+    lambda d: "kalvium" in d.current_url.lower()
+                           ^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 560, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D04FE]
+	(No symbol) [0x0040B898]
+	(No symbol) [0x0043CF06]
+	(No symbol) [0x004389D5]
+	(No symbol) [0x00437F66]
+	(No symbol) [0x003A36E5]
+	(No symbol) [0x003A3C3E]
+	(No symbol) [0x003A40CD]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	(No symbol) [0x003A33B0]
+	(No symbol) [0x003A2BC3]
+	GetHandleVerifier [0x0090D23C+3620588]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-18 10:38:09,053 - WARNING - Attempt 1 failed, waiting 3 seconds before retry
+2025-04-18 10:38:12,054 - INFO - Attempt 2/3 to find and click Mark Attendance button
+2025-04-18 10:38:12,054 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 10:38:12,056 - ERROR - Error finding Mark Attendance button: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D04FE]
+	(No symbol) [0x0040B898]
+	(No symbol) [0x0043CF06]
+	(No symbol) [0x004389D5]
+	(No symbol) [0x00437F66]
+	(No symbol) [0x003A36E5]
+	(No symbol) [0x003A3C3E]
+	(No symbol) [0x003A40CD]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	(No symbol) [0x003A33B0]
+	(No symbol) [0x003A2BC3]
+	GetHandleVerifier [0x0090D23C+3620588]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:38:12,058 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 566, in find_and_click_mark_attendance
+    WebDriverWait(driver, 30).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        lambda d: "kalvium" in d.current_url.lower()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "D:\script\script.py", line 567, in <lambda>
+    lambda d: "kalvium" in d.current_url.lower()
+                           ^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 560, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D04FE]
+	(No symbol) [0x0040B898]
+	(No symbol) [0x0043CF06]
+	(No symbol) [0x004389D5]
+	(No symbol) [0x00437F66]
+	(No symbol) [0x003A36E5]
+	(No symbol) [0x003A3C3E]
+	(No symbol) [0x003A40CD]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	(No symbol) [0x003A33B0]
+	(No symbol) [0x003A2BC3]
+	GetHandleVerifier [0x0090D23C+3620588]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-18 10:38:12,058 - WARNING - Attempt 2 failed, waiting 3 seconds before retry
+2025-04-18 10:38:15,059 - INFO - Attempt 3/3 to find and click Mark Attendance button
+2025-04-18 10:38:15,059 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 10:38:15,061 - ERROR - Error finding Mark Attendance button: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D04FE]
+	(No symbol) [0x0040B898]
+	(No symbol) [0x0043CF06]
+	(No symbol) [0x004389D5]
+	(No symbol) [0x00437F66]
+	(No symbol) [0x003A36E5]
+	(No symbol) [0x003A3C3E]
+	(No symbol) [0x003A40CD]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	(No symbol) [0x003A33B0]
+	(No symbol) [0x003A2BC3]
+	GetHandleVerifier [0x0090D23C+3620588]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 10:38:15,062 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 566, in find_and_click_mark_attendance
+    WebDriverWait(driver, 30).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        lambda d: "kalvium" in d.current_url.lower()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "D:\script\script.py", line 567, in <lambda>
+    lambda d: "kalvium" in d.current_url.lower()
+                           ^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 560, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D04FE]
+	(No symbol) [0x0040B898]
+	(No symbol) [0x0043CF06]
+	(No symbol) [0x004389D5]
+	(No symbol) [0x00437F66]
+	(No symbol) [0x003A36E5]
+	(No symbol) [0x003A3C3E]
+	(No symbol) [0x003A40CD]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	(No symbol) [0x003A33B0]
+	(No symbol) [0x003A2BC3]
+	GetHandleVerifier [0x0090D23C+3620588]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-18 10:38:15,062 - WARNING - Attempt 3 failed, waiting 3 seconds before retry
+2025-04-18 10:38:18,063 - ERROR - Failed to find and click Mark Attendance button after multiple attempts
+2025-04-18 10:38:25,172 - INFO - Browser closed
+2025-04-18 11:12:18,037 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 11:12:18,037 - INFO - Using Chrome profile: C:\Users\LENOVO\AppData\Local\Google\Chrome\User Data - Profile 9
+2025-04-18 11:12:18,037 - INFO - Starting Chrome browser...
+2025-04-18 11:12:18,038 - INFO - ====== WebDriver manager ======
+2025-04-18 11:12:19,187 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:12:19,780 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:12:20,131 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 11:12:23,003 - ERROR - An error occurred: Message: session not created: Chrome failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00405432]
+	(No symbol) [0x003FF4A9]
+	(No symbol) [0x00448D63]
+	(No symbol) [0x0044877A]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 11:12:23,039 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 60, in main
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 250, in __init__
+    self.start_session(capabilities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 342, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00405432]
+	(No symbol) [0x003FF4A9]
+	(No symbol) [0x00448D63]
+	(No symbol) [0x0044877A]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-18 11:13:28,835 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 11:13:28,835 - INFO - Using Chrome profile: C:\Users\LENOVO\AppData\Local\Google\Chrome\User Data - Profile 9
+2025-04-18 11:13:28,835 - INFO - Starting Chrome browser...
+2025-04-18 11:13:28,835 - INFO - ====== WebDriver manager ======
+2025-04-18 11:13:29,859 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:13:30,435 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:13:30,748 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 11:13:33,559 - ERROR - An error occurred: Message: session not created: Chrome failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00405432]
+	(No symbol) [0x003FF4A9]
+	(No symbol) [0x00448D63]
+	(No symbol) [0x0044877A]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 11:13:33,564 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 60, in main
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 250, in __init__
+    self.start_session(capabilities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 342, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00405432]
+	(No symbol) [0x003FF4A9]
+	(No symbol) [0x00448D63]
+	(No symbol) [0x0044877A]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-18 11:15:21,050 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 11:15:21,050 - INFO - Using Chrome profile: C:\Users\LENOVO\AppData\Local\Google\Chrome\User Data - Profile 9
+2025-04-18 11:15:21,050 - INFO - Starting Chrome browser...
+2025-04-18 11:15:21,050 - INFO - ====== WebDriver manager ======
+2025-04-18 11:15:22,145 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:15:22,449 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:15:22,797 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 11:15:25,623 - ERROR - An error occurred: Message: session not created: Chrome failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00405432]
+	(No symbol) [0x003FF4A9]
+	(No symbol) [0x00448D63]
+	(No symbol) [0x0044877A]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 11:15:25,628 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 60, in main
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 250, in __init__
+    self.start_session(capabilities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 342, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00405432]
+	(No symbol) [0x003FF4A9]
+	(No symbol) [0x00448D63]
+	(No symbol) [0x0044877A]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-18 11:19:57,378 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 11:19:57,379 - INFO - Attempting to close any running Chrome instances...
+2025-04-18 11:19:57,655 - INFO - Killing Chrome process with PID 4264
+2025-04-18 11:19:57,881 - INFO - Killing Chrome process with PID 7368
+2025-04-18 11:19:58,080 - INFO - Killing Chrome process with PID 14112
+2025-04-18 11:19:58,089 - INFO - Killing Chrome process with PID 14820
+2025-04-18 11:19:58,120 - INFO - Killing Chrome process with PID 16232
+2025-04-18 11:19:58,178 - INFO - Killing Chrome process with PID 18912
+2025-04-18 11:19:58,179 - INFO - Killing Chrome process with PID 18968
+2025-04-18 11:19:58,180 - INFO - Killing Chrome process with PID 19024
+2025-04-18 11:19:58,181 - INFO - Killing Chrome process with PID 19380
+2025-04-18 11:20:00,252 - INFO - Chrome processes terminated.
+2025-04-18 11:20:00,252 - INFO - Using Chrome profile at: C:\Users\LENOVO\AppData\Local\Google\Chrome\User Data - Profile 9
+2025-04-18 11:20:00,252 - INFO - Starting Chrome browser...
+2025-04-18 11:20:00,253 - INFO - ====== WebDriver manager ======
+2025-04-18 11:20:01,295 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:20:02,447 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:20:02,744 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 11:20:04,049 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 11:20:04,049 - INFO - Navigating to Kalvium Community...
+2025-04-18 11:20:17,375 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 11:20:17,375 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 11:20:19,472 - INFO - Clicked Google button using approach 1
+2025-04-18 11:20:21,473 - INFO - Handling Google login process...
+2025-04-18 11:20:27,054 - ERROR - Error during Google login: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003BFED0]
+	(No symbol) [0x003DDD3F]
+	(No symbol) [0x00443D7F]
+	(No symbol) [0x0045E129]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 11:20:27,059 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 370, in handle_google_login
+    WebDriverWait(driver, 10).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        lambda d: "accounts.google.com" in d.current_url
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "D:\script\script.py", line 371, in <lambda>
+    lambda d: "accounts.google.com" in d.current_url
+                                       ^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 560, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003BFED0]
+	(No symbol) [0x003DDD3F]
+	(No symbol) [0x00443D7F]
+	(No symbol) [0x0045E129]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-18 11:20:27,059 - WARNING - Login process might not have completed successfully, proceeding anyway...
+2025-04-18 11:20:27,061 - ERROR - An error occurred: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D04FE]
+	(No symbol) [0x0040B898]
+	(No symbol) [0x0043CF06]
+	(No symbol) [0x004389D5]
+	(No symbol) [0x00437F66]
+	(No symbol) [0x003A36E5]
+	(No symbol) [0x003A3C3E]
+	(No symbol) [0x003A40CD]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	(No symbol) [0x003A33B0]
+	(No symbol) [0x003A2BC3]
+	GetHandleVerifier [0x0090D23C+3620588]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 11:20:27,062 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 131, in main
+    driver.save_screenshot(screenshot_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 994, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 969, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1003, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1013, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D04FE]
+	(No symbol) [0x0040B898]
+	(No symbol) [0x0043CF06]
+	(No symbol) [0x004389D5]
+	(No symbol) [0x00437F66]
+	(No symbol) [0x003A36E5]
+	(No symbol) [0x003A3C3E]
+	(No symbol) [0x003A40CD]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	(No symbol) [0x003A33B0]
+	(No symbol) [0x003A2BC3]
+	GetHandleVerifier [0x0090D23C+3620588]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-18 11:20:27,063 - ERROR - Failed to save error screenshot
+2025-04-18 11:20:34,204 - INFO - Browser closed
+2025-04-18 11:25:06,306 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 11:25:06,307 - INFO - Attempting to close any running Chrome instances...
+2025-04-18 11:25:06,804 - INFO - Killing Chrome process with PID 7964
+2025-04-18 11:25:06,922 - INFO - Killing Chrome process with PID 14176
+2025-04-18 11:25:06,924 - INFO - Killing Chrome process with PID 14492
+2025-04-18 11:25:06,946 - INFO - Killing Chrome process with PID 15536
+2025-04-18 11:25:06,992 - INFO - Killing Chrome process with PID 17128
+2025-04-18 11:25:07,016 - INFO - Killing Chrome process with PID 19152
+2025-04-18 11:25:07,028 - INFO - Killing Chrome process with PID 20840
+2025-04-18 11:25:07,102 - INFO - Killing Chrome process with PID 23548
+2025-04-18 11:25:09,152 - INFO - Chrome processes terminated.
+2025-04-18 11:25:09,153 - INFO - Using Chrome profile at: C:\Users\LENOVO\AppData\Local\Google\Chrome\User Data\Default - Default
+2025-04-18 11:25:09,153 - INFO - Starting Chrome browser...
+2025-04-18 11:25:09,153 - INFO - ====== WebDriver manager ======
+2025-04-18 11:25:10,189 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:25:10,553 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:25:10,890 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 11:25:12,154 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 11:25:12,154 - INFO - Navigating to Kalvium Community...
+2025-04-18 11:25:17,119 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 11:25:17,119 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 11:25:19,360 - INFO - Clicked Google button using approach 1
+2025-04-18 11:25:21,361 - INFO - Handling Google login process...
+2025-04-18 11:25:31,502 - WARNING - Not redirected to Google login page, may already be logged in
+2025-04-18 11:25:31,886 - INFO - Checking if user is already marked as present...
+2025-04-18 11:25:37,078 - INFO - No present indicator found via direct method
+2025-04-18 11:25:37,107 - INFO - Found confirmation text: Yay! You're marked as present. Stay focussed and keep going.
+2025-04-18 11:25:37,111 - INFO - Closing the browser in 5 seconds...
+2025-04-18 11:25:49,478 - INFO - Browser closed
+2025-04-18 11:30:59,106 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 11:30:59,107 - INFO - Attempting to close any running Chrome instances...
+2025-04-18 11:31:01,746 - INFO - Chrome processes terminated.
+2025-04-18 11:31:01,746 - INFO - Using Chrome profile at: C:\Users\LENOVO\AppData\Local\Google\Chrome\User Data\Default - Default
+2025-04-18 11:31:01,747 - INFO - Starting Chrome browser...
+2025-04-18 11:31:01,747 - INFO - ====== WebDriver manager ======
+2025-04-18 11:31:02,963 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:31:03,253 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:31:03,568 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 11:31:04,803 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 11:31:04,803 - INFO - Navigating to Kalvium Community...
+2025-04-18 11:31:08,604 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 11:31:08,604 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 11:31:10,812 - INFO - Clicked Google button using approach 1
+2025-04-18 11:31:12,813 - INFO - Handling Google login process...
+2025-04-18 11:31:22,981 - WARNING - Not redirected to Google login page, may already be logged in
+2025-04-18 11:31:23,385 - INFO - Checking if user is already marked as present...
+2025-04-18 11:31:28,599 - INFO - No present indicator found via direct method
+2025-04-18 11:31:28,629 - INFO - Found confirmation text: Yay! You're marked as present. Stay focussed and keep going.
+2025-04-18 11:31:28,633 - INFO - Closing the browser in 5 seconds...
+2025-04-18 11:31:42,740 - INFO - Browser closed
+2025-04-18 11:39:59,575 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 11:39:59,576 - INFO - Attempting to close any running Chrome instances...
+2025-04-18 11:40:02,352 - INFO - Chrome processes terminated.
+2025-04-18 11:40:02,352 - INFO - Using Chrome profile at: C:\Users\LENOVO\AppData\Local\Google\Chrome\User Data - Profile 1
+2025-04-18 11:40:02,353 - INFO - Starting Chrome browser...
+2025-04-18 11:40:02,353 - INFO - ====== WebDriver manager ======
+2025-04-18 11:40:03,586 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:40:04,058 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:40:04,584 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 11:40:05,751 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 11:40:05,751 - INFO - Navigating to Kalvium Community...
+2025-04-18 11:40:10,529 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 11:40:10,530 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 11:40:16,162 - INFO - Approach 1 failed to find Google button
+2025-04-18 11:47:39,112 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 11:47:39,112 - INFO - Attempting to close any running Chrome instances...
+2025-04-18 11:47:39,235 - INFO - Killing Chrome process with PID 2156
+2025-04-18 11:47:39,235 - INFO - Killing Chrome process with PID 2164
+2025-04-18 11:47:39,745 - INFO - Killing Chrome process with PID 14424
+2025-04-18 11:47:39,830 - INFO - Killing Chrome process with PID 22404
+2025-04-18 11:47:41,857 - INFO - Chrome processes terminated.
+2025-04-18 11:47:41,858 - INFO - Using Chrome profile at: C:\Users\LENOVO\AppData\Local\Google\Chrome\User Data - Profile 1
+2025-04-18 11:47:41,858 - INFO - Starting Chrome browser...
+2025-04-18 11:47:41,858 - INFO - ====== WebDriver manager ======
+2025-04-18 11:47:43,036 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:47:43,393 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 11:47:43,685 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 11:47:44,767 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 11:47:44,767 - INFO - Navigating to Kalvium Community...
+2025-04-18 11:47:48,267 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 11:47:48,368 - INFO - Checking if already logged in...
+2025-04-18 11:47:48,559 - INFO - User is not logged in
+2025-04-18 11:47:48,560 - INFO - Not logged in. Looking for Google login button...
+2025-04-18 11:47:48,560 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 11:47:53,797 - INFO - Approach 1 failed to find Google button
+2025-04-18 11:47:58,925 - INFO - Approach 2 failed to find Google button
+2025-04-18 11:47:58,934 - WARNING - All approaches failed to find Google button
+2025-04-18 11:47:59,103 - WARNING - Couldn't find Google login button, continuing anyway...
+2025-04-18 11:48:04,105 - INFO - Checking if user is already marked as present...
+2025-04-18 11:48:09,324 - INFO - No present indicator found via direct method
+2025-04-18 11:48:09,354 - INFO - Found confirmation text: Yay! You're marked as present. Stay focussed and keep going.
+2025-04-18 11:48:09,359 - INFO - Closing the browser in 5 seconds...
+2025-04-18 14:01:03,041 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 14:01:03,041 - INFO - Attempting to close any running Chrome instances...
+2025-04-18 14:01:05,454 - INFO - Chrome processes terminated.
+2025-04-18 14:01:05,454 - INFO - Using Chrome profile at: C:\Users\LENOVO\AppData\Local\Google\Chrome\User Data - Profile 1
+2025-04-18 14:01:05,454 - INFO - Starting Chrome browser...
+2025-04-18 14:01:05,454 - INFO - ====== WebDriver manager ======
+2025-04-18 14:01:06,223 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 14:01:06,816 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 14:01:08,128 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 14:01:09,092 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 14:01:09,093 - INFO - Navigating to Kalvium Community...
+2025-04-18 14:01:12,495 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 14:01:12,574 - INFO - Checking if already logged in...
+2025-04-18 14:01:12,660 - INFO - User is not logged in
+2025-04-18 14:01:12,660 - INFO - Not logged in. Looking for Google login button...
+2025-04-18 14:01:12,660 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 14:01:17,652 - INFO - Clicked Google button using approach 1
+2025-04-18 14:01:24,652 - INFO - Checking if user is already marked as present...
+2025-04-18 14:01:29,765 - INFO - No present indicator found via direct method
+2025-04-18 14:01:29,775 - INFO - No confirmation text found
+2025-04-18 14:01:29,780 - ERROR - Error checking if already present: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 14:01:29,782 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 271, in check_if_already_present
+    already_present = driver.execute_script("""
+        // Check for various indicators that user is already present
+    ...<22 lines>...
+        return false;
+    """)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 528, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-18 14:01:29,782 - INFO - Attempt 1/3 to find and click Mark Attendance button
+2025-04-18 14:01:29,782 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 14:01:29,790 - INFO - Current URL: https://kalvium.community/
+2025-04-18 14:01:34,912 - INFO - Found attendance button: Mark Attendance
+2025-04-18 14:01:34,979 - INFO - Clicked attendance button
+2025-04-18 14:01:37,979 - INFO - Waiting for camera to initialize...
+2025-04-18 14:01:48,305 - INFO - Found Present button: I'm Present
+2025-04-18 14:01:48,374 - INFO - Clicked Present button
+2025-04-18 14:01:51,374 - INFO - Verifying success...
+2025-04-18 14:01:51,507 - INFO - Script completed successfully!
+2025-04-18 14:01:58,906 - INFO - Browser closed
+2025-04-18 15:01:15,357 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-18 15:01:15,357 - INFO - Attempting to close any running Chrome instances...
+2025-04-18 15:01:18,260 - INFO - Chrome processes terminated.
+2025-04-18 15:01:18,260 - INFO - Using Chrome profile at: C:\Users\LENOVO\AppData\Local\Google\Chrome\User Data - Profile 1
+2025-04-18 15:01:18,261 - INFO - Starting Chrome browser...
+2025-04-18 15:01:18,261 - INFO - ====== WebDriver manager ======
+2025-04-18 15:01:19,451 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 15:01:19,887 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 15:01:20,137 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-18 15:01:21,518 - INFO - Chrome browser started successfully in visible mode
+2025-04-18 15:01:21,518 - INFO - Navigating to Kalvium Community...
+2025-04-18 15:01:26,212 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-18 15:01:26,320 - INFO - Checking if already logged in...
+2025-04-18 15:01:26,426 - INFO - User is not logged in
+2025-04-18 15:01:26,426 - INFO - Not logged in. Looking for Google login button...
+2025-04-18 15:01:26,426 - INFO - Looking for 'Continue with Google' button...
+2025-04-18 15:01:32,001 - INFO - Clicked Google button using approach 1
+2025-04-18 15:01:39,002 - INFO - Checking if user is already marked as present...
+2025-04-18 15:01:44,214 - INFO - No present indicator found via direct method
+2025-04-18 15:01:44,227 - INFO - No confirmation text found
+2025-04-18 15:01:44,232 - ERROR - Error checking if already present: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-18 15:01:44,276 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 271, in check_if_already_present
+    already_present = driver.execute_script("""
+        // Check for various indicators that user is already present
+    ...<22 lines>...
+        return false;
+    """)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 528, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-18 15:01:44,276 - INFO - Attempt 1/3 to find and click Mark Attendance button
+2025-04-18 15:01:44,276 - INFO - Looking for 'Mark Attendance' button...
+2025-04-18 15:01:44,289 - INFO - Current URL: https://kalvium.community/
+2025-04-18 15:01:49,542 - INFO - Found attendance button: Mark Attendance
+2025-04-18 15:01:49,691 - INFO - Clicked attendance button
+2025-04-18 15:01:52,692 - INFO - Waiting for camera to initialize...
+2025-04-18 15:02:03,202 - INFO - Found Present button: I'm Present
+2025-04-18 15:02:03,304 - INFO - Clicked Present button
+2025-04-18 15:02:06,305 - INFO - Verifying success...
+2025-04-18 15:02:06,555 - INFO - Script completed successfully!
+2025-04-18 15:02:14,643 - INFO - Browser closed
