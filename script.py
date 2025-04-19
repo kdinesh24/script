@@ -129,6 +129,9 @@ def main():
         else:
             logger.info("Already logged in to Kalvium Community")
         
+        # Handle "How was the session?" emoji feedback if it appears
+        handle_session_feedback_improved(driver)
+        
         # Check if already marked as present before attempting to mark attendance
         already_present = check_if_already_present(driver)
         if already_present:
@@ -145,15 +148,15 @@ def main():
             if attendance_successful:
                 break
             else:
-                logger.warning(f"Attempt {attempt+1} failed, waiting 3 seconds before retry")
-                time.sleep(3)
+                logger.warning(f"Attempt {attempt+1} failed, waiting 2 seconds before retry")
+                time.sleep(2)
                 
         if not attendance_successful:
             logger.error("Failed to find and click Mark Attendance button after multiple attempts")
             return
         
-        # Handle camera and click Present button
-        present_successful = handle_camera_and_present_button(driver)
+        # Handle camera and click Present button - with improved speed
+        present_successful = handle_camera_and_present_button_fast(driver)
         if not present_successful:
             logger.error("Failed to click I'm Present button")
             return
@@ -180,6 +183,251 @@ def main():
             time.sleep(5)
             driver.quit()
             logger.info("Browser closed")
+
+def handle_session_feedback_improved(driver):
+    """Improved function to handle the session feedback with 3 emojis"""
+    logger.info("Checking for session feedback prompt (improved)...")
+    
+    try:
+        # Take screenshot before looking for feedback form
+        screenshot_path = os.path.join(log_directory, f"before_feedback_{datetime.now().strftime('%H%M%S')}.png")
+        driver.save_screenshot(screenshot_path)
+        
+        # Check if feedback form exists
+        feedback_exists = driver.execute_script("""
+            const feedbackTexts = [
+                'how was the session',
+                'how was your session',
+                'rate the session',
+                'feedback'
+            ];
+            
+            // Look for feedback prompt
+            const elements = document.querySelectorAll('*');
+            for (const el of elements) {
+                if (el.offsetHeight === 0 || el.offsetWidth === 0) continue;
+                
+                const text = (el.innerText || el.textContent || '').toLowerCase();
+                for (const feedbackText of feedbackTexts) {
+                    if (text.includes(feedbackText)) {
+                        return "Feedback form found: " + text;
+                    }
+                }
+            }
+            
+            return false;
+        """)
+        
+        if not feedback_exists:
+            logger.info("No session feedback form detected")
+            return True
+            
+        logger.info(f"Detected session feedback: {feedback_exists}")
+        
+        # Try to select the third (last) emoji - the most positive one
+        emoji_clicked = driver.execute_script("""
+            // IMPROVED EMOJI DETECTION
+            // -------------------------
+            
+            // Function to get element's absolute position
+            function getAbsolutePosition(element) {
+                const rect = element.getBoundingClientRect();
+                return {
+                    top: rect.top + window.scrollY,
+                    left: rect.left + window.scrollX,
+                    width: rect.width,
+                    height: rect.height,
+                    bottom: rect.bottom + window.scrollY,
+                    right: rect.right + window.scrollX,
+                    area: rect.width * rect.height
+                };
+            }
+            
+            // Step 1: Find all possible emoji candidates (small clickable items in a horizontal row)
+            const allClickable = document.querySelectorAll('button, img, svg, [role="button"], div');
+            const candidates = Array.from(allClickable).filter(el => {
+                // Must be visible
+                if (el.offsetHeight === 0 || el.offsetWidth === 0) return false;
+                
+                // Typical emoji size
+                const rect = el.getBoundingClientRect();
+                return rect.width >= 20 && rect.width <= 80 && rect.height >= 20 && rect.height <= 80;
+            });
+            
+            console.log("Found " + candidates.length + " potential emoji candidates");
+            
+            // Step 2: Group candidates that appear to be in a horizontal row (similar y-position)
+            const groups = [];
+            candidates.forEach(candidate => {
+                const pos = getAbsolutePosition(candidate);
+                
+                // Find a group with similar y-position
+                let foundGroup = false;
+                for (const group of groups) {
+                    const firstItemPos = getAbsolutePosition(group[0]);
+                    // If within ~10px vertically, consider it the same row
+                    if (Math.abs(pos.top - firstItemPos.top) < 20) {
+                        group.push(candidate);
+                        foundGroup = true;
+                        break;
+                    }
+                }
+                
+                if (!foundGroup) {
+                    groups.push([candidate]);
+                }
+            });
+            
+            console.log("Found " + groups.length + " potential groups");
+            
+            // Step 3: Find groups with exactly 3 items or closest to it
+            let bestGroup = null;
+            let bestScore = 0;
+            
+            for (const group of groups) {
+                // Score based on how close to 3 items and if they're in the upper half of page
+                const pos = getAbsolutePosition(group[0]);
+                const pageCenter = window.innerHeight / 2;
+                const scoreForPosition = (pos.top < pageCenter) ? 3 : 1; // Prefer upper half
+                const scoreForCount = (group.length === 3) ? 10 : (5 - Math.abs(group.length - 3));
+                
+                const totalScore = scoreForPosition * scoreForCount;
+                
+                if (totalScore > bestScore) {
+                    bestScore = totalScore;
+                    bestGroup = group;
+                }
+            }
+            
+            if (!bestGroup || bestGroup.length === 0) {
+                console.log("Could not identify emoji group");
+                return false;
+            }
+            
+            console.log("Found best group with " + bestGroup.length + " items");
+            
+            // Sort the group horizontally (left to right)
+            bestGroup.sort((a, b) => {
+                const posA = getAbsolutePosition(a);
+                const posB = getAbsolutePosition(b);
+                return posA.left - posB.left;
+            });
+            
+            // Click the last item (3rd one if 3 items, otherwise the last one for positive)
+            const emojiToClick = bestGroup[bestGroup.length - 1]; // Last/rightmost emoji
+            emojiToClick.click();
+            
+            return "Clicked the rightmost emoji in a group of " + bestGroup.length;
+        """)
+        
+        if emoji_clicked:
+            logger.info(f"Selected emoji: {emoji_clicked}")
+            time.sleep(1)
+        else:
+            logger.warning("Failed to select emoji")
+        
+        # Now look for the Submit button
+        submit_clicked = driver.execute_script("""
+            // IMPROVED SUBMIT BUTTON DETECTION
+            // --------------------------------
+            
+            // First try to find submit button by text
+            const submitTexts = ['submit', 'ok', 'okay', 'done', 'confirm', 'next', 'save'];
+            const buttons = document.querySelectorAll('button, [role="button"], input[type="submit"]');
+            
+            // Try matching by text first
+            for (const button of buttons) {
+                if (button.offsetHeight === 0 || button.offsetWidth === 0) continue;
+                
+                const text = (button.innerText || button.textContent || '').toLowerCase();
+                for (const submitText of submitTexts) {
+                    if (text.includes(submitText)) {
+                        console.log("Found submit button by text:", text);
+                        button.click();
+                        return "Clicked button with text: " + text;
+                    }
+                }
+            }
+            
+            // Try looking for buttons below the emojis
+            let emojiBottom = 0;
+            let feedbackContainer = null;
+            
+            // Find the feedback container
+            document.querySelectorAll('div, section, form').forEach(container => {
+                const text = (container.innerText || container.textContent || '').toLowerCase();
+                if (text.includes('how was') || text.includes('feedback') || text.includes('rate')) {
+                    feedbackContainer = container;
+                }
+            });
+            
+            if (feedbackContainer) {
+                // Look for buttons inside the feedback container
+                const containerButtons = Array.from(feedbackContainer.querySelectorAll('button'));
+                
+                // Sort by vertical position (top to bottom)
+                containerButtons.sort((a, b) => {
+                    const rectA = a.getBoundingClientRect();
+                    const rectB = b.getBoundingClientRect();
+                    return rectA.top - rectB.top;
+                });
+                
+                // The submit button is likely the last button in the container
+                if (containerButtons.length > 0) {
+                    const lastButton = containerButtons[containerButtons.length - 1];
+                    lastButton.click();
+                    return "Clicked last button in feedback container";
+                }
+            }
+            
+            // Last resort: find the most prominent button on the page
+            const visibleButtons = Array.from(buttons).filter(b => 
+                b.offsetHeight > 0 && b.offsetWidth > 0 && 
+                window.getComputedStyle(b).display !== 'none' && 
+                window.getComputedStyle(b).visibility !== 'hidden'
+            );
+            
+            // Sort by prominence (size, styling)
+            visibleButtons.sort((a, b) => {
+                const aStyle = window.getComputedStyle(a);
+                const bStyle = window.getComputedStyle(b);
+                
+                // Score based on size, color, border, etc.
+                const aScore = 
+                    (a.offsetWidth * a.offsetHeight) +
+                    (aStyle.backgroundColor !== 'rgba(0, 0, 0, 0)' ? 1000 : 0) +
+                    (aStyle.borderWidth !== '0px' ? 500 : 0) +
+                    (aStyle.fontWeight === 'bold' ? 300 : 0);
+                    
+                const bScore = 
+                    (b.offsetWidth * b.offsetHeight) +
+                    (bStyle.backgroundColor !== 'rgba(0, 0, 0, 0)' ? 1000 : 0) +
+                    (bStyle.borderWidth !== '0px' ? 500 : 0) +
+                    (bStyle.fontWeight === 'bold' ? 300 : 0);
+                    
+                return bScore - aScore; // Higher score first
+            });
+            
+            if (visibleButtons.length > 0) {
+                visibleButtons[0].click();
+                return "Clicked most prominent button";
+            }
+            
+            return false;
+        """)
+        
+        if submit_clicked:
+            logger.info(f"Clicked Submit button: {submit_clicked}")
+            time.sleep(2)
+            return True
+        else:
+            logger.warning("Failed to click Submit button, continuing anyway")
+            return False
+            
+    except Exception as e:
+        logger.error(f"Error handling session feedback: {e}")
+        logger.error(traceback.format_exc())
+        return False
 
 def check_if_logged_in(driver):
     """Check if user is already logged in to Kalvium Community"""
@@ -237,7 +485,7 @@ def check_if_already_present(driver):
     
     try:
         # Wait for Kalvium page to fully load
-        time.sleep(5)
+        time.sleep(3)
         
         # Take screenshot
         screenshot_path = os.path.join(log_directory, f"checking_present_{datetime.now().strftime('%H%M%S')}.png")
@@ -347,9 +595,6 @@ def find_and_click_google_button(driver):
             // Try to find the Google button
             const buttons = Array.from(document.querySelectorAll('button, a, div[role="button"]'));
             
-            // Log all button texts for debugging
-            buttons.forEach(btn => console.log('Button text:', btn.innerText || btn.textContent));
-            
             // First look for buttons containing "Google" text
             for (const btn of buttons) {
                 const text = (btn.innerText || btn.textContent || '').toLowerCase();
@@ -423,11 +668,11 @@ def find_and_click_mark_attendance(driver):
         driver.save_screenshot(screenshot_path)
         
         # Wait additional time for any JavaScript to load
-        time.sleep(5)
+        time.sleep(3)
         
         # Try direct approach first
         try:
-            attendance_button = WebDriverWait(driver, 10).until(
+            attendance_button = WebDriverWait(driver, 5).until(
                 EC.element_to_be_clickable((By.XPATH, 
                     "//button[contains(text(), 'Attendance') or contains(text(), 'attendance')] | " +
                     "//a[contains(text(), 'Attendance') or contains(text(), 'attendance')] | " +
@@ -439,7 +684,7 @@ def find_and_click_mark_attendance(driver):
             logger.info(f"Found attendance button: {attendance_button.text}")
             attendance_button.click()
             logger.info("Clicked attendance button")
-            time.sleep(3)
+            time.sleep(2)
             return True
         except (TimeoutException, NoSuchElementException) as e:
             logger.warning(f"Direct approach for finding attendance button failed: {e}")
@@ -447,14 +692,6 @@ def find_and_click_mark_attendance(driver):
         # JavaScript approach as fallback
         logger.info("Trying JavaScript approach for attendance button")
         attendance_clicked = driver.execute_script("""
-            // Debug all text elements
-            document.querySelectorAll('*').forEach(el => {
-                const text = el.innerText || el.textContent || '';
-                if (text.toLowerCase().includes('attendance') || text.toLowerCase().includes('mark')) {
-                    console.log('Found potential element:', el.tagName, text);
-                }
-            });
-            
             // Look for any element with attendance text
             const allElements = document.querySelectorAll('*');
             for (const elem of allElements) {
@@ -521,7 +758,7 @@ def find_and_click_mark_attendance(driver):
         
         if attendance_clicked:
             logger.info(f"JavaScript found and clicked attendance button: {attendance_clicked}")
-            time.sleep(3)
+            time.sleep(2)
             return True
         else:
             logger.error("Could not find 'Mark Attendance' button")
@@ -532,25 +769,92 @@ def find_and_click_mark_attendance(driver):
         logger.error(traceback.format_exc())
         return False
 
-def handle_camera_and_present_button(driver):
-    """Handle camera activation and clicking the I'm Present button"""
-    logger.info("Waiting for camera to initialize...")
+def handle_camera_and_present_button_fast(driver):
+    """Handle camera activation and clicking the I'm Present button with improved speed"""
+    logger.info("Waiting for camera to initialize (fast mode)...")
     
     try:
-        # Take screenshot after attendance button click
-        screenshot_path = os.path.join(log_directory, f"after_attendance_click_{datetime.now().strftime('%H%M%S')}.png")
-        driver.save_screenshot(screenshot_path)
-        
-        # Wait for camera to initialize
-        time.sleep(10)
+        # Reduced wait time for camera initialization
+        time.sleep(5)
         
         # Take camera screen screenshot
         screenshot_path = os.path.join(log_directory, f"camera_screen_{datetime.now().strftime('%H%M%S')}.png")
         driver.save_screenshot(screenshot_path)
         
-        # Try direct approach first
+        # Aggressive JavaScript approach to immediately find and click the Present button
+        present_clicked = driver.execute_script("""
+            // Aggressive Present Button finder and clicker
+            function findAndClickPresentButton() {
+                // Direct button text search
+                const buttons = document.querySelectorAll('button');
+                for (const button of buttons) {
+                    const text = (button.innerText || button.textContent || '').toLowerCase();
+                    if (text.includes('present') || text.includes("i'm present") || 
+                        text.includes('confirm') || text.includes('submit')) {
+                        button.click();
+                        return "Clicked button: " + text;
+                    }
+                }
+                
+                // Visible buttons
+                const visibleButtons = Array.from(buttons).filter(b => 
+                    b.offsetHeight > 0 && b.offsetWidth > 0 && 
+                    window.getComputedStyle(b).display !== 'none' && 
+                    window.getComputedStyle(b).visibility !== 'hidden'
+                );
+                
+                // Primary/action buttons
+                for (const button of visibleButtons) {
+                    if (button.className.toLowerCase().includes('primary') || 
+                        button.className.toLowerCase().includes('action') ||
+                        button.className.toLowerCase().includes('submit') ||
+                        button.className.toLowerCase().includes('confirm') ||
+                        window.getComputedStyle(button).backgroundColor !== 'rgba(0, 0, 0, 0)') {
+                        button.click();
+                        return "Clicked primary style button: " + button.className;
+                    }
+                }
+                
+                // Last resort - click the largest visible button
+                if (visibleButtons.length > 0) {
+                    visibleButtons.sort((a, b) => 
+                        (b.offsetWidth * b.offsetHeight) - (a.offsetWidth * a.offsetHeight)
+                    );
+                    visibleButtons[0].click();
+                    return "Clicked largest button";
+                }
+                
+                return false;
+            }
+            
+            // Try immediately
+            let result = findAndClickPresentButton();
+            if (result) return result;
+            
+            // Set up repeated attempts to find and click the button
+            let attempts = 0;
+            const intervalId = setInterval(() => {
+                attempts++;
+                console.log("Attempt", attempts, "to find Present button");
+                const result = findAndClickPresentButton();
+                if (result || attempts >= 15) {
+                    clearInterval(intervalId);
+                    if (result) return result;
+                }
+            }, 500);
+            
+            // Return that we've set up the attempts
+            return "Set up repeated attempts to find Present button";
+        """)
+        
+        logger.info(f"Started aggressive Present button detection: {present_clicked}")
+        
+        # Wait for a short time to give the JavaScript time to work
+        time.sleep(3)
+        
+        # Try conventional approach as backup
         try:
-            present_button = WebDriverWait(driver, 10).until(
+            present_button = WebDriverWait(driver, 3).until(
                 EC.element_to_be_clickable((By.XPATH, 
                     "//button[contains(text(), 'Present') or contains(text(), 'present')] | " +
                     "//button[contains(text(), \"I'm\") and contains(text(), 'Present')] | " +
@@ -562,71 +866,46 @@ def handle_camera_and_present_button(driver):
             logger.info(f"Found Present button: {present_button.text}")
             present_button.click()
             logger.info("Clicked Present button")
-            time.sleep(3)
             return True
         except (TimeoutException, NoSuchElementException) as e:
-            logger.warning(f"Direct approach for finding Present button failed: {e}")
-        
-        # JavaScript approach as fallback
-        logger.info("Trying JavaScript approach for Present button")
-        present_clicked = driver.execute_script("""
-            // Debug all buttons
-            document.querySelectorAll('button').forEach(b => {
-                console.log('Button:', b.innerText || b.textContent || 'no text', b.className);
-            });
+            logger.info(f"Conventional approach didn't find button: {e}")
             
-            // Look for present button
+        # Check if JavaScript approach was successful
+        success_check = driver.execute_script("""
+            // Check if we are now on a result/success page
+            const successIndicators = [
+                'success',
+                'thank you',
+                'marked as present',
+                'attendance confirmed'
+            ];
+            
+            const pageText = document.body.innerText.toLowerCase();
+            for (const indicator of successIndicators) {
+                if (pageText.includes(indicator)) {
+                    return "Success page detected: " + indicator;
+                }
+            }
+            
+            // Try clicking the button again - one last attempt
             const buttons = document.querySelectorAll('button');
             for (const button of buttons) {
                 const text = (button.innerText || button.textContent || '').toLowerCase();
                 if (text.includes('present') || text.includes("i'm present") || 
                     text.includes('confirm') || text.includes('submit')) {
                     button.click();
-                    return "Clicked button: " + text;
+                    return "Clicked button in final attempt: " + text;
                 }
-            }
-            
-            // If there's only one visible button, click it
-            const visibleButtons = Array.from(buttons).filter(b => 
-                b.offsetHeight > 0 && b.offsetWidth > 0 && 
-                window.getComputedStyle(b).display !== 'none' && 
-                window.getComputedStyle(b).visibility !== 'hidden'
-            );
-            
-            if (visibleButtons.length === 1) {
-                visibleButtons[0].click();
-                return "Clicked only visible button";
-            }
-            
-            // Look for any prominence indicators
-            for (const button of visibleButtons) {
-                if (button.className.toLowerCase().includes('primary') || 
-                    button.className.toLowerCase().includes('action') ||
-                    button.className.toLowerCase().includes('submit') ||
-                    button.className.toLowerCase().includes('confirm')) {
-                    button.click();
-                    return "Clicked primary action button: " + button.className;
-                }
-            }
-            
-            // Last resort - click the largest button
-            if (visibleButtons.length > 0) {
-                visibleButtons.sort((a, b) => 
-                    (b.offsetWidth * b.offsetHeight) - (a.offsetWidth * a.offsetHeight)
-                );
-                visibleButtons[0].click();
-                return "Clicked largest button";
             }
             
             return false;
         """)
         
-        if present_clicked:
-            logger.info(f"JavaScript found and clicked Present button: {present_clicked}")
-            time.sleep(3)
+        if success_check:
+            logger.info(f"Button clicking appears successful: {success_check}")
             return True
         else:
-            logger.error("Could not find 'I'm Present' button")
+            logger.warning("Could not verify if Present button was clicked")
             return False
             
     except Exception as e:
@@ -645,7 +924,7 @@ def verify_success(driver):
         
         # Check for success indicators
         success_found = driver.execute_script("""
-            const successTexts = ['success', 'present', 'marked', 'attendance', 'thank', 'confirmed'];
+            const successTexts = ['success', 'present', 'marked', 'attendance', 'thank', 'confirmed', 'yay'];
             const elements = document.querySelectorAll('*');
             
             for (const el of elements) {

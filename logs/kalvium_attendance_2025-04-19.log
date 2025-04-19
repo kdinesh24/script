@@ -1,0 +1,545 @@
+2025-04-19 10:02:10,334 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-19 10:02:10,335 - INFO - Attempting to close any running Chrome instances...
+2025-04-19 10:02:10,375 - INFO - Killing Chrome process with PID 1108
+2025-04-19 10:02:10,881 - INFO - Killing Chrome process with PID 9688
+2025-04-19 10:02:10,960 - INFO - Killing Chrome process with PID 10956
+2025-04-19 10:02:11,136 - INFO - Killing Chrome process with PID 18716
+2025-04-19 10:02:11,161 - INFO - Killing Chrome process with PID 22356
+2025-04-19 10:02:13,213 - INFO - Chrome processes terminated.
+2025-04-19 10:02:13,214 - INFO - Using Chrome profile at: C:\Users\LENOVO\AppData\Local\Google\Chrome\User Data - Profile 1
+2025-04-19 10:02:13,215 - INFO - Starting Chrome browser...
+2025-04-19 10:02:13,215 - INFO - ====== WebDriver manager ======
+2025-04-19 10:02:15,147 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-19 10:02:15,960 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-19 10:02:16,437 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-19 10:02:17,384 - INFO - WebDriver version 135.0.7049.95 selected
+2025-04-19 10:02:17,390 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.95/win32/chromedriver-win32.zip
+2025-04-19 10:02:17,390 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.95/win32/chromedriver-win32.zip
+2025-04-19 10:02:17,646 - INFO - Driver downloading response is 200
+2025-04-19 10:02:22,248 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-19 10:02:24,515 - INFO - Driver has been saved in cache [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95]
+2025-04-19 10:02:26,284 - INFO - Chrome browser started successfully in visible mode
+2025-04-19 10:02:26,284 - INFO - Navigating to Kalvium Community...
+2025-04-19 10:02:29,607 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-19 10:02:29,792 - INFO - Checking if already logged in...
+2025-04-19 10:02:29,958 - INFO - User is not logged in
+2025-04-19 10:02:29,958 - INFO - Not logged in. Looking for Google login button...
+2025-04-19 10:02:29,959 - INFO - Looking for 'Continue with Google' button...
+2025-04-19 10:02:35,549 - INFO - Approach 1 failed to find Google button
+2025-04-19 10:02:40,651 - INFO - Approach 2 failed to find Google button
+2025-04-19 10:02:40,658 - WARNING - All approaches failed to find Google button
+2025-04-19 10:02:40,821 - WARNING - Couldn't find Google login button, continuing anyway...
+2025-04-19 10:02:45,822 - INFO - Checking for session feedback prompt (improved)...
+2025-04-19 10:02:45,992 - INFO - No session feedback form detected
+2025-04-19 10:02:45,993 - INFO - Checking if user is already marked as present...
+2025-04-19 10:02:49,156 - INFO - No present indicator found via direct method
+2025-04-19 10:02:49,169 - INFO - No confirmation text found
+2025-04-19 10:02:49,176 - ERROR - Error checking if already present: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-19 10:02:49,234 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 519, in check_if_already_present
+    already_present = driver.execute_script("""
+        // Check for various indicators that user is already present
+    ...<22 lines>...
+        return false;
+    """)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 528, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-19 10:02:49,235 - INFO - Attempt 1/3 to find and click Mark Attendance button
+2025-04-19 10:02:49,235 - INFO - Looking for 'Mark Attendance' button...
+2025-04-19 10:02:49,243 - INFO - Current URL: https://kalvium.community/
+2025-04-19 10:02:52,528 - INFO - Found attendance button: Mark Attendance
+2025-04-19 10:02:52,664 - INFO - Clicked attendance button
+2025-04-19 10:02:54,666 - INFO - Waiting for camera to initialize (fast mode)...
+2025-04-19 10:02:59,986 - INFO - Started aggressive Present button detection: Clicked button: i'm present
+2025-04-19 10:03:06,066 - INFO - Conventional approach didn't find button: Message: 
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00418660]
+	(No symbol) [0x004189FB]
+	(No symbol) [0x00461022]
+	(No symbol) [0x0043D094]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-19 10:03:06,076 - INFO - Button clicking appears successful: Success page detected: marked as present
+2025-04-19 10:03:06,076 - INFO - Verifying success...
+2025-04-19 10:03:06,364 - INFO - Script completed successfully!
+2025-04-19 10:03:13,776 - INFO - Browser closed
+2025-04-19 11:01:48,883 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-19 11:01:48,883 - INFO - Attempting to close any running Chrome instances...
+2025-04-19 11:01:48,900 - INFO - Killing Chrome process with PID 1076
+2025-04-19 11:01:48,908 - INFO - Killing Chrome process with PID 1296
+2025-04-19 11:01:49,300 - INFO - Killing Chrome process with PID 13216
+2025-04-19 11:01:49,352 - INFO - Killing Chrome process with PID 18796
+2025-04-19 11:01:49,353 - INFO - Killing Chrome process with PID 19944
+2025-04-19 11:01:49,391 - INFO - Killing Chrome process with PID 24212
+2025-04-19 11:01:51,430 - INFO - Chrome processes terminated.
+2025-04-19 11:01:51,430 - INFO - Using Chrome profile at: C:\Users\LENOVO\AppData\Local\Google\Chrome\User Data - Profile 1
+2025-04-19 11:01:51,430 - INFO - Starting Chrome browser...
+2025-04-19 11:01:51,430 - INFO - ====== WebDriver manager ======
+2025-04-19 11:01:52,156 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-19 11:01:52,482 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-19 11:01:52,860 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-19 11:01:53,872 - INFO - Chrome browser started successfully in visible mode
+2025-04-19 11:01:53,872 - INFO - Navigating to Kalvium Community...
+2025-04-19 11:01:55,995 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-19 11:01:56,067 - INFO - Checking if already logged in...
+2025-04-19 11:01:56,204 - INFO - User is not logged in
+2025-04-19 11:01:56,204 - INFO - Not logged in. Looking for Google login button...
+2025-04-19 11:01:56,204 - INFO - Looking for 'Continue with Google' button...
+2025-04-19 11:02:01,408 - INFO - Approach 1 failed to find Google button
+2025-04-19 11:02:06,493 - INFO - Approach 2 failed to find Google button
+2025-04-19 11:02:06,499 - WARNING - All approaches failed to find Google button
+2025-04-19 11:02:06,611 - WARNING - Couldn't find Google login button, continuing anyway...
+2025-04-19 11:02:11,612 - INFO - Checking for session feedback prompt (improved)...
+2025-04-19 11:02:11,729 - INFO - Selected emoji: Clicked the rightmost emoji in a group of 3
+2025-04-19 11:02:12,746 - INFO - Clicked Submit button: Clicked button with text: submit
+2025-04-19 11:02:14,747 - INFO - Checking if user is already marked as present...
+2025-04-19 11:02:17,863 - INFO - No present indicator found via direct method
+2025-04-19 11:02:17,872 - INFO - No confirmation text found
+2025-04-19 11:02:17,879 - ERROR - Error checking if already present: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-19 11:02:17,881 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 519, in check_if_already_present
+    already_present = driver.execute_script("""
+        // Check for various indicators that user is already present
+    ...<22 lines>...
+        return false;
+    """)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 528, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-19 11:02:17,881 - INFO - Attempt 1/3 to find and click Mark Attendance button
+2025-04-19 11:02:17,881 - INFO - Looking for 'Mark Attendance' button...
+2025-04-19 11:02:17,887 - INFO - Current URL: https://kalvium.community/
+2025-04-19 11:02:21,023 - INFO - Found attendance button: Mark Attendance
+2025-04-19 11:02:21,098 - INFO - Clicked attendance button
+2025-04-19 11:02:23,099 - INFO - Waiting for camera to initialize (fast mode)...
+2025-04-19 11:02:28,251 - INFO - Started aggressive Present button detection: Clicked button: i'm present
+2025-04-19 11:02:34,308 - INFO - Conventional approach didn't find button: Message: 
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00418660]
+	(No symbol) [0x004189FB]
+	(No symbol) [0x00461022]
+	(No symbol) [0x0043D094]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-19 11:02:34,313 - INFO - Button clicking appears successful: Success page detected: marked as present
+2025-04-19 11:02:34,313 - INFO - Verifying success...
+2025-04-19 11:02:34,424 - INFO - Script completed successfully!
+2025-04-19 11:02:41,674 - INFO - Browser closed
+2025-04-19 13:00:55,036 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-19 13:00:55,036 - INFO - Attempting to close any running Chrome instances...
+2025-04-19 13:00:55,276 - INFO - Killing Chrome process with PID 2404
+2025-04-19 13:00:58,102 - INFO - Chrome processes terminated.
+2025-04-19 13:00:58,102 - INFO - Using Chrome profile at: C:\Users\LENOVO\AppData\Local\Google\Chrome\User Data - Profile 1
+2025-04-19 13:00:58,103 - INFO - Starting Chrome browser...
+2025-04-19 13:00:58,103 - INFO - ====== WebDriver manager ======
+2025-04-19 13:00:59,346 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-19 13:00:59,965 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-19 13:01:00,256 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-19 13:01:01,498 - INFO - Chrome browser started successfully in visible mode
+2025-04-19 13:01:01,498 - INFO - Navigating to Kalvium Community...
+2025-04-19 13:01:06,717 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-19 13:01:06,816 - INFO - Checking if already logged in...
+2025-04-19 13:01:06,982 - INFO - User is not logged in
+2025-04-19 13:01:06,983 - INFO - Not logged in. Looking for Google login button...
+2025-04-19 13:01:06,983 - INFO - Looking for 'Continue with Google' button...
+2025-04-19 13:01:12,265 - INFO - Approach 1 failed to find Google button
+2025-04-19 13:01:17,400 - INFO - Approach 2 failed to find Google button
+2025-04-19 13:01:17,406 - WARNING - All approaches failed to find Google button
+2025-04-19 13:01:17,565 - WARNING - Couldn't find Google login button, continuing anyway...
+2025-04-19 13:01:22,565 - INFO - Checking for session feedback prompt (improved)...
+2025-04-19 13:01:22,745 - INFO - No session feedback form detected
+2025-04-19 13:01:22,746 - INFO - Checking if user is already marked as present...
+2025-04-19 13:01:25,926 - INFO - No present indicator found via direct method
+2025-04-19 13:01:25,939 - INFO - No confirmation text found
+2025-04-19 13:01:25,944 - ERROR - Error checking if already present: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-19 13:01:25,949 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 519, in check_if_already_present
+    already_present = driver.execute_script("""
+        // Check for various indicators that user is already present
+    ...<22 lines>...
+        return false;
+    """)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 528, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-19 13:01:25,949 - INFO - Attempt 1/3 to find and click Mark Attendance button
+2025-04-19 13:01:25,950 - INFO - Looking for 'Mark Attendance' button...
+2025-04-19 13:01:25,958 - INFO - Current URL: https://kalvium.community/
+2025-04-19 13:01:29,190 - INFO - Found attendance button: Mark Attendance
+2025-04-19 13:01:29,346 - INFO - Clicked attendance button
+2025-04-19 13:01:31,347 - INFO - Waiting for camera to initialize (fast mode)...
+2025-04-19 13:01:36,615 - INFO - Started aggressive Present button detection: Clicked button: i'm present
+2025-04-19 13:01:42,701 - INFO - Conventional approach didn't find button: Message: 
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00418660]
+	(No symbol) [0x004189FB]
+	(No symbol) [0x00461022]
+	(No symbol) [0x0043D094]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-19 13:01:42,707 - INFO - Button clicking appears successful: Success page detected: marked as present
+2025-04-19 13:01:42,708 - INFO - Verifying success...
+2025-04-19 13:01:42,918 - INFO - Script completed successfully!
+2025-04-19 13:01:50,347 - INFO - Browser closed
+2025-04-19 15:01:54,624 - INFO - =========== STARTING KALVIUM ATTENDANCE SCRIPT ===========
+2025-04-19 15:01:54,624 - INFO - Attempting to close any running Chrome instances...
+2025-04-19 15:01:54,654 - INFO - Killing Chrome process with PID 300
+2025-04-19 15:01:55,154 - INFO - Killing Chrome process with PID 5000
+2025-04-19 15:01:55,495 - INFO - Killing Chrome process with PID 8984
+2025-04-19 15:01:55,513 - INFO - Killing Chrome process with PID 9328
+2025-04-19 15:01:55,755 - INFO - Killing Chrome process with PID 18960
+2025-04-19 15:01:55,794 - INFO - Killing Chrome process with PID 20536
+2025-04-19 15:01:55,808 - INFO - Killing Chrome process with PID 21180
+2025-04-19 15:01:55,813 - INFO - Killing Chrome process with PID 21220
+2025-04-19 15:01:55,851 - INFO - Killing Chrome process with PID 22912
+2025-04-19 15:01:55,852 - INFO - Killing Chrome process with PID 22972
+2025-04-19 15:01:57,918 - INFO - Chrome processes terminated.
+2025-04-19 15:01:57,919 - INFO - Using Chrome profile at: C:\Users\LENOVO\AppData\Local\Google\Chrome\User Data - Profile 1
+2025-04-19 15:01:57,919 - INFO - Starting Chrome browser...
+2025-04-19 15:01:57,919 - INFO - ====== WebDriver manager ======
+2025-04-19 15:01:59,270 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-19 15:01:59,877 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-19 15:02:00,117 - INFO - Driver [C:\Users\LENOVO\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-19 15:02:01,607 - INFO - Chrome browser started successfully in visible mode
+2025-04-19 15:02:01,607 - INFO - Navigating to Kalvium Community...
+2025-04-19 15:02:05,687 - INFO - Page loaded. Current URL: https://kalvium.community/
+2025-04-19 15:02:05,793 - INFO - Checking if already logged in...
+2025-04-19 15:02:05,932 - INFO - User is not logged in
+2025-04-19 15:02:05,932 - INFO - Not logged in. Looking for Google login button...
+2025-04-19 15:02:05,933 - INFO - Looking for 'Continue with Google' button...
+2025-04-19 15:02:11,383 - INFO - Approach 1 failed to find Google button
+2025-04-19 15:02:16,541 - INFO - Approach 2 failed to find Google button
+2025-04-19 15:02:16,549 - WARNING - All approaches failed to find Google button
+2025-04-19 15:02:16,717 - WARNING - Couldn't find Google login button, continuing anyway...
+2025-04-19 15:02:21,718 - INFO - Checking for session feedback prompt (improved)...
+2025-04-19 15:02:21,909 - INFO - Selected emoji: Clicked the rightmost emoji in a group of 3
+2025-04-19 15:02:22,924 - INFO - Clicked Submit button: Clicked button with text: submit
+2025-04-19 15:02:24,925 - INFO - Checking if user is already marked as present...
+2025-04-19 15:02:28,112 - INFO - No present indicator found via direct method
+2025-04-19 15:02:28,137 - INFO - No confirmation text found
+2025-04-19 15:02:28,146 - ERROR - Error checking if already present: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-19 15:02:28,148 - ERROR - Traceback (most recent call last):
+  File "D:\script\script.py", line 519, in check_if_already_present
+    already_present = driver.execute_script("""
+        // Check for various indicators that user is already present
+    ...<22 lines>...
+        return false;
+    """)
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 528, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: Unexpected identifier 're'
+  (Session info: chrome=135.0.7049.96)
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x003D6DE7]
+	(No symbol) [0x003D9345]
+	(No symbol) [0x0045F741]
+	(No symbol) [0x0043D04C]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+
+2025-04-19 15:02:28,148 - INFO - Attempt 1/3 to find and click Mark Attendance button
+2025-04-19 15:02:28,148 - INFO - Looking for 'Mark Attendance' button...
+2025-04-19 15:02:28,156 - INFO - Current URL: https://kalvium.community/
+2025-04-19 15:02:31,384 - INFO - Found attendance button: Mark Attendance
+2025-04-19 15:02:31,504 - INFO - Clicked attendance button
+2025-04-19 15:02:33,505 - INFO - Waiting for camera to initialize (fast mode)...
+2025-04-19 15:02:38,810 - INFO - Started aggressive Present button detection: Clicked button: i'm present
+2025-04-19 15:02:44,888 - INFO - Conventional approach didn't find button: Message: 
+Stacktrace:
+	GetHandleVerifier [0x005A8073+60707]
+	GetHandleVerifier [0x005A80B4+60772]
+	(No symbol) [0x003D0683]
+	(No symbol) [0x00418660]
+	(No symbol) [0x004189FB]
+	(No symbol) [0x00461022]
+	(No symbol) [0x0043D094]
+	(No symbol) [0x0045E824]
+	(No symbol) [0x0043CE46]
+	(No symbol) [0x0040C5D3]
+	(No symbol) [0x0040D424]
+	GetHandleVerifier [0x007EBB53+2435075]
+	GetHandleVerifier [0x007E70F3+2416035]
+	GetHandleVerifier [0x0080349C+2531660]
+	GetHandleVerifier [0x005BF145+155125]
+	GetHandleVerifier [0x005C5AED+182173]
+	GetHandleVerifier [0x005AF948+91640]
+	GetHandleVerifier [0x005AFAF0+92064]
+	GetHandleVerifier [0x0059A5B0+4704]
+	BaseThreadInitThunk [0x77275D49+25]
+	RtlInitializeExceptionChain [0x77A1CF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x77A1CE91+561]
+
+2025-04-19 15:02:44,895 - WARNING - Could not verify if Present button was clicked
+2025-04-19 15:02:44,895 - ERROR - Failed to click I'm Present button
+2025-04-19 15:02:52,342 - INFO - Browser closed
